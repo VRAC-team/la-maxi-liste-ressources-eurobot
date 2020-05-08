@@ -88,8 +88,10 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 [VIDEO - Robert Cowan - Montage de réducteur planétaire sur un moteur brushless](https://www.youtube.com/watch?v=TfYZbjtgO0k)
 
 * [COMPOSANT - Controleur brushless oDrive](https://odriverobotics.com/)
-* [COMPOSANT - Controleurs Pololu](https://www.pololu.com/category/9/motion-control-modules)
+* [COMPOSANT - Controleurs de moteurs Pololu](https://www.pololu.com/category/9/motion-control-modules)
 * [COMPOSANT - Moteurs brushless HobbyKing](https://hobbyking.com/fr_fr/power-systems/electric-motors/brushless-motors.html)
+* [COMPOSANT - Moteurs FAULHABER](https://www.faulhaber.com/)
+* [COMPOSANT - Moteurs MAXON](https://www.maxongroup.com/)
 
 ## Asservissement
 
@@ -102,6 +104,8 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 [PDF - RCVA - Asservissement du robot à une trajectoire](asservissement/RCVA-asservissement.pdf)
 
 [PDF - RCVA - Montée de tremplin par le robot RCVA sans terme intégral](asservissement/RCVA-Montee_de_tremplin_sans_terme_integral.pdf)
+
+[VIDEO - RCVA - Asservissement en rotation avec un gyromètre ADXRS453](https://www.youtube.com/watch?v=p0cm7LnMXOc)
 
 [VIDEO - RCVA - cours asservissement polaire](https://www.youtube.com/watch?v=JYZ_2y8k1Os)
 
@@ -125,25 +129,74 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ## Simulation
 
-[VIDEO - ESEO - simulateur de match](https://www.youtube.com/watch?v=fo-87AF2Fr4)
+[VIDEO - ESEO - simulateur de match](https://www.youtube.com/watch?v=fo-87AF2Fr4), [article sur leur site](https://robot-eseo.fr/strategie-du-robot-sur-simulateur/)
 
 ## Communication sans-fil
 
 [FORUM - Pourquoi éviter le WiFi 2.4GHz](https://www.planete-sciences.org/forums/viewtopic.php?f=97&t=16969)
 
+## Cartes de développement
 
+* [COMPOSANT - STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
+* [COMPOSANT - Teensy](https://www.pjrc.com/teensy/)
+* [COMPOSANT - PSoC](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
+* [COMPOSANT - BeagleBone](https://beagleboard.org/)
+
+## Camera pour traitement vidéo
+
+* [COMPOSANT - OpenMV](https://openmv.io/)
+* [COMPOSANT - JeVois](https://www.jevoisinc.com/)
+* [COMPOSANT - Pixy](https://pixycam.com/)
+
+## Sites marchands en vrac
+
+Uniquement mécanique:
+
+* [Misumi](https://fr.misumi-ec.com/)
+* [Motedis](https://www.motedis.fr/shop/index.php)
+* [MakerBeam](https://www.makerbeam.com/)
+
+Mixes mécanique/électronique:
+
+* [RS Components](https://fr.rs-online.com/)
+* [Conrad](https://www.conrad.fr/)
+* [RobotShop](https://www.robotshop.com/)
+* [GoTronic](https://www.gotronic.fr/)
+* [Lextronic](https://www.lextronic.fr/)
+
+Plutot électronique:
+
+* [Adafruit](https://www.adafruit.com/category/35)
+* [Sparkfun](https://www.sparkfun.com/)
+
+Uniquement électronique:
+
+* [Mouser](https://www.mouser.fr/)
+* [Farnell](https://fr.farnell.com/)
+* [Digi-Key](https://www.digikey.fr/)
+
+Fabricants de circuits imprimés:
+
+* [Aisler](https://aisler.net/)
+* [Eurocircuits](https://www.eurocircuits.com/)
+* [OSHPark](https://oshpark.com/)
+
+Comparateur de prix [PCBShopper](https://pcbshopper.com/)
+
+Service d'usinage:
+
+* [JohnSteel](https://www.john-steel.com/fr/)
+* [Usineur.fr](https://www.usineur.fr/)
+* [Protolabs](https://www.protolabs.fr/)
+* [Xmake](https://www.xmake.com/)
 
 ## Codes sources des équipes
 
-[CVRA](https://github.com/cvra)
-
-[Microb Technology](https://github.com/onitake/aversive)
-
-[ESEO](https://github.com/ClubRobotEseo)
-
-[EsialRobotik](https://github.com/EsialRobotik)
-
-[ARIG Robotique](https://github.com/ARIG-Robotique)
+* [CVRA](https://github.com/cvra)
+* [Microb Technology](https://github.com/onitake/aversive)
+* [ESEO](https://github.com/ClubRobotEseo)
+* [EsialRobotik](https://github.com/EsialRobotik)
+* [ARIG Robotique](https://github.com/ARIG-Robotique)
 
 ## Autres liens
 
