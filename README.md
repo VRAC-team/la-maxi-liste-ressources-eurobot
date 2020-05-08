@@ -1,4 +1,5 @@
-# Ressources pour faire un bon robot à Eurobot
+La maxi liste des ressources pour faire (un bon) robot à Eurobot
+===============
 
 Ce repo est destiné à compiler et partager les ressources (cours/vidéos/composants/discussions/liens) en lien avec la compétition [Eurobot](https://www.eurobot.org/).
 
@@ -8,7 +9,10 @@ Si un document vous appartient et que vous souhaitez le faire retirer, merci de 
 
 Vous pouvez contribuer en créant une [Pull Request](https://github.com/VRAC-team/ressources/pulls)
 
-## Pour bien commencer
+---------------
+# 1. Ressources académiques
+
+## 1.1 Pour bien commencer
 
 **RCVA: Réflexions sur un robot Eurobot en 9 chapitres**
 
@@ -40,9 +44,9 @@ Vous pouvez contribuer en créant une [Pull Request](https://github.com/VRAC-tea
 > 
 > [EXCEL - Génération de profile trapézoidal de vitesse](asservissement/Cubot-profil_de_vitesse.xlsx)
 
-## Base roulante
+## 1.2 Base roulante
 
-### Odométrie
+### 1.2.1 Odométrie
 
 [WEB - CVRA - Odometry calibration](https://cvra.ch/robot-software/howto/calibrate-odometry/)
 
@@ -59,15 +63,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [WEB PDF - High-Precision Robot Odometry Using an Array of Optical Mice](https://pdfs.semanticscholar.org/37ca/1fc2dcc4c0cf860fc0b00542fc7cb59c579f.pdf)
 
-#### Encodeurs
-
-* [COMPOSANT - Encodeur rotatif à effet Hall AMS](https://ams.com/angle-position-on-axis)
-* [COMPOSANT - Encodeur rotatif capacitifs CUI](https://www.cuidevices.com/catalog/motion/rotary-encoders/incremental/modular)
-* [COMPOSANT - Encodeur rotatif optique Kubler](https://www.kuebler.com/fr/produits/mesure/codeurs/product-finder)
-* [COMPOSANT - Encodeur rotatif inductif POSIC](https://www.posic.com/EN/products/rotary-encoders.html)
-* [COMPOSANT - LS7366R 32-bit quadrature counter with serial interface](https://lsicsi.com/datasheets/LS7366R.pdf)
-
-### Roues
+### 1.2.2 Roues
 
 [FORUM - Robotech Legends - Moulage de pneus en polyuréthane](https://www.planete-sciences.org/forums/viewtopic.php?t=18632)
 
@@ -75,11 +71,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [VIDEO - Micro Technology - test d'adhérence des roues](https://www.youtube.com/watch?v=cPfP7zyS0kU)
 
-* [COMPOSANT - Roues JSumo](https://www.jsumo.com/wheels)
-* [COMPOSANT - Roues BaneBots](http://www.banebots.com/category/T40P.html)
-* [COMPOSANT - Roues Lynxmotion](https://www.robotshop.com/eu/fr/lynxmotion-roues.html)
-
-### Moteurs
+### 1.2.3 Moteurs
 
 [PDF - ANCR - Dimensionner ses moteurs](moteurs/ANCR-Dimensionner_ses_moteurs.pdf)
 
@@ -87,15 +79,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [VIDEO - Robert Cowan - Montage de réducteur planétaire sur un moteur brushless](https://www.youtube.com/watch?v=TfYZbjtgO0k)
 
-* [COMPOSANT - Controleur brushless oDrive](https://odriverobotics.com/)
-* [COMPOSANT - Controleurs de moteurs Pololu](https://www.pololu.com/category/9/motion-control-modules)
-* [COMPOSANT - Moteurs brushless HobbyKing](https://hobbyking.com/fr_fr/power-systems/electric-motors/brushless-motors.html)
-* [COMPOSANT - Moteurs FAULHABER](https://www.faulhaber.com/)
-* [COMPOSANT - Moteurs MAXON](https://www.maxongroup.com/)
-
-## Asservissement
-
-[PDF - TechTheTroll - Les trajectoires courbes dans la bonne humeur: de l’asservissement à la planification](asservissement/TechTheTroll-trajectoire_courbe.pdf)
+## 1.3 Asservissement
 
 [PDF - totofweb - Le PID utilisé en régulation de position et/ou de vitesse de moteurs électriques](asservissement/totofweb-PID_régulation_de_position_vitesse.pdf)
 
@@ -109,13 +93,15 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [VIDEO - RCVA - cours asservissement polaire](https://www.youtube.com/watch?v=JYZ_2y8k1Os)
 
+[PDF - TechTheTroll - Les trajectoires courbes dans la bonne humeur: de l’asservissement à la planification](asservissement/TechTheTroll-trajectoire_courbe.pdf)
+
 [COMPOSANT - LM628/LM629 Precision Motion Controller](http://www.ti.com/lit/ds/symlink/lm629.pdf)
 
-### Planificateur de trajectoire
+### 1.3.1 Planificateur de trajectoire
 
 [LIBRARIE - The Kraken Pathfinding - A tentacle-based pathfinding library for nonholonomic robotic vehicles](https://github.com/kraken-robotics/The-Kraken-Pathfinding)
 
-## Balises
+## 1.4 Balises
 
 [PDF - totofweb - Balise infrarouge](balise/totofweb-balises_IR.pdf)
 
@@ -127,34 +113,73 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [VIDEO - ESEO - localisation par balises infrarouges](https://www.youtube.com/watch?v=bGoXEwQ0UQs)
 
-## Simulation
+## 1.5 Simulation
 
 [VIDEO - ESEO - simulateur de match](https://www.youtube.com/watch?v=fo-87AF2Fr4), [article sur leur site](https://robot-eseo.fr/strategie-du-robot-sur-simulateur/)
 
-## Communication sans-fil
+## 1.6 Communication sans-fil
 
 [FORUM - Pourquoi éviter le WiFi 2.4GHz](https://www.planete-sciences.org/forums/viewtopic.php?f=97&t=16969)
 
-## Cartes de développement
 
-* [COMPOSANT - STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
-* [COMPOSANT - Teensy](https://www.pjrc.com/teensy/)
-* [COMPOSANT - PSoC](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
-* [COMPOSANT - BeagleBone](https://beagleboard.org/)
+---------------
+# 2. Composants, fabricants, sites marchands
 
-## Camera pour traitement vidéo
+## 2.1 Cartes de développement
 
-* [COMPOSANT - OpenMV](https://openmv.io/)
-* [COMPOSANT - JeVois](https://www.jevoisinc.com/)
-* [COMPOSANT - Pixy](https://pixycam.com/)
+* [STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
+* [Teensy](https://www.pjrc.com/teensy/)
+* [PSoC](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
+* [BeagleBone](https://beagleboard.org/)
 
-## Sites marchands en vrac
+## 2.2 Moteurs et controleurs de moteurs
+
+* [Controleur brushless oDrive](https://odriverobotics.com/)
+* [Controleurs de moteurs Pololu (DC, stepper, servo)](https://www.pololu.com/category/9/motion-control-modules)
+* [Faulhaber](https://www.faulhaber.com/)
+* [Maxon Motor](https://www.maxongroup.com/)
+
+## 2.3 Roues
+
+* [Roues JSumo](https://www.jsumo.com/wheels)
+* [Roues BaneBots](http://www.banebots.com/category/T40P.html)
+* [Roues Lynxmotion](https://www.robotshop.com/eu/fr/lynxmotion-roues.html)
+
+## 2.4 Encodeurs
+
+* [rotatif à effet Hall AMS](https://ams.com/angle-position-on-axis)
+* [rotatif capacitifs CUI](https://www.cuidevices.com/catalog/motion/rotary-encoders/incremental/modular)
+* [rotatif optique Kubler](https://www.kuebler.com/fr/produits/mesure/codeurs/product-finder)
+* [rotatif inductif POSIC](https://www.posic.com/EN/products/rotary-encoders.html)
+* [LS7366R 32-bit quadrature counter with serial interface](https://lsicsi.com/datasheets/LS7366R.pdf)
+
+## 2.5 Capteurs de distance
+
+* [Capteurs de distance à moyenne portée SICK, laser classe 1 ou 2, ou infra-rouge](https://www.sick.com/fr/fr/capteurs-de-distance/capteurs-de-distance-a-moyenne-portee/c/g176373)
+* [Capteurs Time-of-Flight STMicroelectronics](https://www.st.com/en/imaging-and-photonics-solutions/proximity-sensors.html#products)
+
+## 2.6 Pneumatique
+
+* [Coval](https://www.coval.fr/produits/)
+* [Piab](https://www.piab.com/fr-FR/Produits/ventouses/)
+* [Festo](https://www.festo.com/cat/fr_fr/products)
+* [KNF](https://www.knf.fr/fr/produits/pompes-oem/)
+* [Thomas Gardner Denver](https://www.gardnerdenver.com/en-us/thomas/gas-pumps)
+* [SCHMALZ](https://www.schmalz.com/fr/technique-du-vide-pour-l-automation/composants-pour-le-vide)
+
+## 2.7 Camera pour traitement vidéo
+
+* [OpenMV](https://openmv.io/)
+* [JeVois](https://www.jevoisinc.com/)
+* [Pixy](https://pixycam.com/)
+
+## 2.8 Sites marchands en vrac
 
 Uniquement mécanique:
 
 * [Misumi](https://fr.misumi-ec.com/)
-* [Motedis](https://www.motedis.fr/shop/index.php)
-* [MakerBeam](https://www.makerbeam.com/)
+* [Motedis](https://www.motedis.fr/shop/index.php): profilées alluminuum
+* [MakerBeam](https://www.makerbeam.com/): profilées alluminuum
 
 Mixes mécanique/électronique:
 
@@ -163,6 +188,12 @@ Mixes mécanique/électronique:
 * [RobotShop](https://www.robotshop.com/)
 * [GoTronic](https://www.gotronic.fr/)
 * [Lextronic](https://www.lextronic.fr/)
+
+Modélisme, pour les batteries, chargeurs, moteurs DC, moteurs brushless, controleurs, servos, ...
+
+* [Miniplanes](https://www.miniplanes.fr/)
+* [HobbyKing](https://hobbyking.com/)
+* [HITEC](https://hitecrcd.com/products/servos)
 
 Plutot électronique:
 
@@ -180,8 +211,7 @@ Fabricants de circuits imprimés:
 * [Aisler](https://aisler.net/)
 * [Eurocircuits](https://www.eurocircuits.com/)
 * [OSHPark](https://oshpark.com/)
-
-Comparateur de prix [PCBShopper](https://pcbshopper.com/)
+* Comparateur de prix: [PCBShopper](https://pcbshopper.com/)
 
 Service d'usinage:
 
@@ -190,7 +220,10 @@ Service d'usinage:
 * [Protolabs](https://www.protolabs.fr/)
 * [Xmake](https://www.xmake.com/)
 
-## Codes sources des équipes
+---------------
+# 3. Autres liens
+
+## 3.1 Codes sources des équipes
 
 * [CVRA](https://github.com/cvra)
 * [Microb Technology](https://github.com/onitake/aversive)
@@ -198,7 +231,7 @@ Service d'usinage:
 * [EsialRobotik](https://github.com/EsialRobotik)
 * [ARIG Robotique](https://github.com/ARIG-Robotique)
 
-## Autres liens
+## 3.2 Liens en vrac
 
 [Forum Planete Science / Coupe de France de robotique](https://www.planete-sciences.org/forums/)
 
