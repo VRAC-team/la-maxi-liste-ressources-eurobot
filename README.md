@@ -65,7 +65,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 * [COMPOSANT - Encodeur rotatif capacitifs CUI](https://www.cuidevices.com/catalog/motion/rotary-encoders/incremental/modular)
 * [COMPOSANT - Encodeur rotatif optique Kubler](https://www.kuebler.com/fr/produits/mesure/codeurs/product-finder)
 * [COMPOSANT - Encodeur rotatif inductif POSIC](https://www.posic.com/EN/products/rotary-encoders.html)
-* [COMPOSANT - LS7366R 32-bit quadrature counter with serial interface] (https://lsicsi.com/datasheets/LS7366R.pdf)
+* [COMPOSANT - LS7366R 32-bit quadrature counter with serial interface](https://lsicsi.com/datasheets/LS7366R.pdf)
 
 ### Roues
 
