@@ -26,7 +26,7 @@ Vous pouvez contribuer en créant une [Pull Request](https://github.com/VRAC-tea
 > 8. Asservissement
 > 9. Quelques questions réponses
 > 
-> [**PDF - RCVA - Réflexions sur un robot Eurobot**](dossier/RCVA-Réflexions_sur_un_robot_Eurobot.pdf)
+> [**PDF - RCVA - Réflexions sur un robot Eurobot**](http://www.rcva.fr/wp-content/uploads/2016/12/devoir_de_vacances.pdf)
 
 **Cubot: Asservissement polaire en 6 chapitres**
 
@@ -59,11 +59,11 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [VIDEO - RCVA - odométrie](https://www.youtube.com/watch?v=557l7JOs35E)
 
-[WEB PDF - Enhanced Positioning SystemsUsing Optical Mouse Sensors](https://www.researchgate.net/publication/272238238_Enhanced_Positioning_Systems_Using_Optical_Mouse_Sensors)
-
 [WEB PDF - High-Precision Robot Odometry Using an Array of Optical Mice](https://pdfs.semanticscholar.org/37ca/1fc2dcc4c0cf860fc0b00542fc7cb59c579f.pdf)
 
 ### 1.2.2 Roues
+
+[**WEB - Erich Styger - Making Perfect Sticky DIY Sumo Robot Tires**](https://mcuoneclipse.com/2017/12/28/making-perfect-sticky-diy-sumo-robot-tires/)
 
 [FORUM - Robotech Legends - Moulage de pneus en polyuréthane](https://www.planete-sciences.org/forums/viewtopic.php?t=18632)
 
@@ -75,7 +75,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [PDF - ANCR - Dimensionner ses moteurs](moteurs/ANCR-Dimensionner_ses_moteurs.pdf)
 
-[PDF - TechTheTroll - Dimensionnement des moteurs de propulsion](moteurs/TechTheTroll-Dimensionnement_des_moteurs_de_propulsion.pdf)
+[PDF - TechTheTroll - Dimensionnement des moteurs de propulsion](https://techthetroll.files.wordpress.com/2016/06/techthetroll-dimensionnement-des-moteurs-de-propulsion.pdf)
 
 [VIDEO - Robert Cowan - Montage de réducteur planétaire sur un moteur brushless](https://www.youtube.com/watch?v=TfYZbjtgO0k)
 
@@ -85,15 +85,15 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [PDF - Microb Technology - Documentation de l'asservissement, librairie Aversive, évitement](asservissement/MicrobTechnology-wiki_asservissement_lib_aversive.pdf)
 
-[PDF - RCVA - Asservissement du robot à une trajectoire](asservissement/RCVA-asservissement.pdf)
+[PDF - RCVA - Asservissement du robot à une trajectoire](http://www.rcva.fr/wp-content/uploads/2016/12/asservissement.pdf)
 
-[PDF - RCVA - Montée de tremplin par le robot RCVA sans terme intégral](asservissement/RCVA-Montee_de_tremplin_sans_terme_integral.pdf)
+[PDF - RCVA - Montée de tremplin par le robot RCVA sans terme intégral](http://www.rcva.fr/wp-content/uploads/2016/12/Montee_De_Tremplin_Sans_Terme_Integral_RCVA.pdf)
 
 [VIDEO - RCVA - Asservissement en rotation avec un gyromètre ADXRS453](https://www.youtube.com/watch?v=p0cm7LnMXOc)
 
 [VIDEO - RCVA - cours asservissement polaire](https://www.youtube.com/watch?v=JYZ_2y8k1Os)
 
-[PDF - TechTheTroll - Les trajectoires courbes dans la bonne humeur: de l’asservissement à la planification](asservissement/TechTheTroll-trajectoire_courbe.pdf)
+[PDF - TechTheTroll - Les trajectoires courbes dans la bonne humeur: de l’asservissement à la planification](https://techthetroll.files.wordpress.com/2016/07/trajectoire_courbe.pdf)
 
 [COMPOSANT - LM628/LM629 Precision Motion Controller](http://www.ti.com/lit/ds/symlink/lm629.pdf)
 
@@ -135,15 +135,15 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 ## 2.2 Moteurs et controleurs de moteurs
 
 * [Controleur brushless oDrive](https://odriverobotics.com/)
-* [Controleurs de moteurs Pololu (DC, stepper, servo)](https://www.pololu.com/category/9/motion-control-modules)
 * [Faulhaber](https://www.faulhaber.com/)
 * [Maxon Motor](https://www.maxongroup.com/)
 
 ## 2.3 Roues
 
-* [Roues JSumo](https://www.jsumo.com/wheels)
-* [Roues BaneBots](http://www.banebots.com/category/T40P.html)
-* [Roues Lynxmotion](https://www.robotshop.com/eu/fr/lynxmotion-roues.html)
+* [JSumo](https://www.jsumo.com/wheels)
+* [Fingertech](https://www.fingertechrobotics.com/products.php?cat=Wheels+%26+Hubs)
+* [BaneBots](http://www.banebots.com/category/T40P.html)
+* [Lynxmotion](https://www.robotshop.com/eu/fr/lynxmotion-roues.html)
 
 ## 2.4 Encodeurs
 
@@ -178,14 +178,15 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 Uniquement mécanique:
 
 * [Misumi](https://fr.misumi-ec.com/)
-* [Motedis](https://www.motedis.fr/shop/index.php): profilées alluminuum
+* [Motedis](https://www.motedis.fr/): profilées alluminuum
 * [MakerBeam](https://www.makerbeam.com/): profilées alluminuum
 
 Mixes mécanique/électronique:
 
 * [RS Components](https://fr.rs-online.com/)
-* [Conrad](https://www.conrad.fr/)
+* [Pololu](https://www.pololu.com/)
 * [RobotShop](https://www.robotshop.com/)
+* [Conrad](https://www.conrad.fr/)
 * [GoTronic](https://www.gotronic.fr/)
 * [Lextronic](https://www.lextronic.fr/)
 
@@ -193,11 +194,11 @@ Modélisme, pour les batteries, chargeurs, moteurs DC, moteurs brushless, contro
 
 * [Miniplanes](https://www.miniplanes.fr/)
 * [HobbyKing](https://hobbyking.com/)
-* [HITEC](https://hitecrcd.com/products/servos)
+* [HITEC](https://hitecrcd.com/)
 
 Plutot électronique:
 
-* [Adafruit](https://www.adafruit.com/category/35)
+* [Adafruit](https://www.adafruit.com/)
 * [Sparkfun](https://www.sparkfun.com/)
 
 Uniquement électronique:
