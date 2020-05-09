@@ -59,7 +59,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [VIDEO - RCVA - odométrie](https://www.youtube.com/watch?v=557l7JOs35E)
 
-[WEB PDF - High-Precision Robot Odometry Using an Array of Optical Mice](https://pdfs.semanticscholar.org/37ca/1fc2dcc4c0cf860fc0b00542fc7cb59c579f.pdf)
+[PDF - High-Precision Robot Odometry Using an Array of Optical Mice](https://pdfs.semanticscholar.org/37ca/1fc2dcc4c0cf860fc0b00542fc7cb59c579f.pdf)
 
 ### 1.2.2 Roues
 
@@ -96,8 +96,6 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 [PDF - TechTheTroll - Les trajectoires courbes dans la bonne humeur: de l’asservissement à la planification](https://techthetroll.files.wordpress.com/2016/07/trajectoire_courbe.pdf)
 
 [PDF - Rich LeGrand - Closed-Loop Motion Control for Mobile Robotics](https://www.cs.hmc.edu/~dodds/projects/RobS05/XPort/XPortArticle.pdf): un Game Boy Advance, des roues holonomes, des legos
-
-[COMPOSANT - LM628/LM629 Precision Motion Controller](http://www.ti.com/lit/ds/symlink/lm629.pdf)
 
 ### 1.3.1 Planificateur de trajectoire
 
@@ -137,6 +135,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 ## 2.2 Moteurs et controleurs de moteurs
 
 * [Controleur brushless oDrive](https://odriverobotics.com/)
+* [LM628/LM629 Precision Motion Controller](http://www.ti.com/lit/ds/symlink/lm629.pdf)
 * [Faulhaber](https://www.faulhaber.com/)
 * [Maxon Motor](https://www.maxongroup.com/)
 
