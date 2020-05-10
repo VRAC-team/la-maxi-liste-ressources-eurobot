@@ -1,0 +1,19 @@
+How to fix error when importing programs from mbed online ide to SW4STM32 (by monowii 15/01/2020)
+
+1. export from online mbed ide program
+2. in project explorer, right click: import -> import existing project into workspace
+3. if you try to build the project, you should have errors like "undefined reference to `__wrap__free_r'"
+	Go to project Properties (right click on project name)
+		C/C++ Build -> Settings -> Tool Settings -> MCU G++ Linker -> Miscellaneous
+			Change Linker flags from
+			-Wl,--wrap=main -Wl,--wrap=_malloc_r -Wl,--wrap=_free_r -Wl,--wrap=_realloc_r -Wl,--wrap=_memalign_r -Wl,--wrap=_calloc_r -Wl,--wrap=exit -Wl,--wrap=atexit -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -Wl,-n -Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -Wl,--end-group
+
+			to:
+			-Wl,--wrap=main -Wl,--wrap=__malloc_r -Wl,--wrap=__free_r -Wl,--wrap=__realloc_r -Wl,--wrap=__memalign_r -Wl,--wrap=__calloc_r -Wl,--wrap=exit -Wl,--wrap=atexit -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -Wl,-n -Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -Wl,--end-group -specs=nosys.specs -u _printf_float
+4. if you try to debug the board, you should have error "OpenOCD Binary not found"
+	Go to Run -> Debug Configuration (top menu bar)
+		AC6 STM32 Debugging -> "Your project name" -> Debugger
+			Change GDB Command from "${openstm32_compiler_path}/arm-none-eabi-gdb" to "${openstm32_compiler_path}\arm-none-eabi-gdb"
+			Change OpenOCD Command from ""${openstm32_openocd_path}/openocd" to "${openstm32_openocd_path}\openocd.exe"
+
+Everything should be good now :)

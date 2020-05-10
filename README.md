@@ -50,6 +50,8 @@ Vous pouvez contribuer en créant une [Pull Request](https://github.com/VRAC-tea
 
 [WEB - CVRA - Odometry calibration](https://cvra.ch/robot-software/howto/calibrate-odometry/)
 
+[VIDEO - Robotic-System - Calibrage de l'odométrie](https://www.youtube.com/watch?v=X5PMFvVecXU)
+
 [PDF - RCVA - Odométrie avec correction centrifuge](odometrie/RCVA-odometrie.pdf)
 
 [PDF - RCVA - Trajectoires courbes et odométrie, De l’importance de la différence de diamètre des deux roues
@@ -125,12 +127,31 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 ---------------
 # 2. Composants, fabricants, sites marchands
 
-## 2.1 Cartes de développement
+## 2.1 Cartes de développement et IDE
 
-* [STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
-* [Teensy](https://www.pjrc.com/teensy/)
-* [PSoC](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
-* [BeagleBone](https://beagleboard.org/)
+[STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
+
+> outils:
+
+> * [LL, HAL, CMSIS](https://www.st.com/en/embedded-software/stm32cube-mcu-mpu-packages.html#products)
+> * [Mbed OS](https://os.mbed.com/code/): open-source operating system for platforms using Arm microcontrollers
+> * [libopencm3](https://github.com/libopencm3/libopencm3): open-source firmware library for various ARM Cortex-M microcontrollers
+> * [ChibiOS](https://github.com/ChibiOS/ChibiOS): complete development environment for embedded applications including RTOS, an HAL, peripheral drivers, support files and tools.
+
+> IDE:
+
+> * [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html): Combinaison de l'IDE TrueSTUDIO avec STM32CubeMX
+> * [System Workbench for STM32](https://www.st.com/en/development-tools/sw4stm32.html): Supporte mbed (nécéssite une [manip pour corriger quelques erreurs](ide/fix_mbed_import_sw4stm32.txt))
+> * [Mbed online compiler](https://os.mbed.com/): IDE en ligne, pas de débogueur, intègre un gestionnaire de version. Attention cependant à avoir une solution de secour lors de la coupe au cas où il serait en maintenance quelques heures
+> * [Mbed Studio](https://os.mbed.com/studio/)
+
+[Teensy](https://www.pjrc.com/teensy/)
+
+[PSoC](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
+ 
+[BeagleBone](https://beagleboard.org/)
+
+IDE universel: [platformio](https://platformio.org/): supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
 
 ## 2.2 Moteurs et controleurs de moteurs
 
