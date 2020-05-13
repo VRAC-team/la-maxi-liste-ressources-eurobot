@@ -45,6 +45,8 @@ Vous pouvez contribuer en créant une [Pull Request](https://github.com/VRAC-tea
 > 
 > [EXCEL - Génération de profile trapézoidal de vitesse](asservissement/Cubot-profil_de_vitesse.xlsx)
 
+[**Les dix commandements version OMyBot**](https://twitter.com/TeamOmybot/status/1128554678101467136)
+
 ## 1.2 Base roulante
 
 ### 1.2.1 Odométrie
