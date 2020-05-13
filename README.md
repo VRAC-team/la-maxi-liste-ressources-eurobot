@@ -9,6 +9,7 @@ Si un document vous appartient et que vous souhaitez le faire retirer, merci de 
 
 Vous pouvez contribuer en créant une [Pull Request](https://github.com/VRAC-team/ressources/pulls)
 
+
 ---------------
 # 1. Ressources académiques
 
@@ -132,14 +133,12 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 [STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
 
 > outils:
-
 > * [LL, HAL, CMSIS](https://www.st.com/en/embedded-software/stm32cube-mcu-mpu-packages.html#products)
 > * [Mbed OS](https://os.mbed.com/code/): open-source operating system for platforms using Arm microcontrollers
 > * [libopencm3](https://github.com/libopencm3/libopencm3): open-source firmware library for various ARM Cortex-M microcontrollers
 > * [ChibiOS](https://github.com/ChibiOS/ChibiOS): complete development environment for embedded applications including RTOS, an HAL, peripheral drivers, support files and tools.
 
 > IDE:
-
 > * [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html): Combinaison de l'IDE TrueSTUDIO avec STM32CubeMX
 > * [System Workbench for STM32](https://www.st.com/en/development-tools/sw4stm32.html): Supporte mbed (nécéssite une [manip pour corriger quelques erreurs](ide/fix_mbed_import_sw4stm32.txt))
 > * [Mbed online compiler](https://os.mbed.com/): IDE en ligne, pas de débogueur, intègre un gestionnaire de version. Attention cependant à avoir une solution de secour lors de la coupe au cas où il serait en maintenance quelques heures
@@ -243,10 +242,37 @@ Service d'usinage:
 * [Protolabs](https://www.protolabs.fr/)
 * [Xmake](https://www.xmake.com/)
 
----------------
-# 3. Autres liens
 
-## 3.1 Codes sources des équipes
+---------------
+# 3. Logiciels
+
+## PCB
+
+* [KiCad](https://kicad-pcb.org/): A Cross Platform and Open Source Electronics Design Automation Suite
+* [LibrePCB](https://librepcb.org/): A new, powerful and intuitive EDA tool for everyone
+* [EasyEDA](https://easyeda.com/fr): Online PCB Design Tool
+* [Eagle](https://www.autodesk.fr/products/eagle/free-download)
+* [Altium Designer](https://www.altium.com/altium-designer/)
+* [Alegro PCB Designer](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/pcb-layout/allegro-pcb-designer.html)
+
+outils:
+
+* [PCB panelizer & Gerber tool suite](http://blog.thisisnotrocketscience.nl/projects/pcb-panelizer/), [explication en vidéo par Christian Hortolland](https://www.youtube.com/watch?v=c5XWobI4Eog)
+* [gerbv](http://gerbv.geda-project.org/): A Free/Open Source Gerber Viewer
+
+## CAO
+
+* [Fusion 360](https://www.autodesk.com/products/fusion-360/overview)
+* [SOLIDWORKS](https://www.solidworks.com/)
+* [FreeCAD](https://www.freecadweb.org/)
+* [OpenSCAD](http://www.openscad.org/): The Programmers Solid 3D CAD Modeller
+* [SOLVESPACE](http://solvespace.com/): parametric 2d/3d CAD
+
+
+---------------
+# 4. Autres liens
+
+## 4.1 Codes sources des équipes
 
 * [CVRA](https://github.com/cvra)
 * [Microb Technology](https://github.com/onitake/aversive)
@@ -254,7 +280,7 @@ Service d'usinage:
 * [EsialRobotik](https://github.com/EsialRobotik)
 * [ARIG Robotique](https://github.com/ARIG-Robotique)
 
-## 3.2 Liens en vrac
+## 4.2 Liens en vrac
 
 [Forum Planete Science / Coupe de France de robotique](https://www.planete-sciences.org/forums/)
 
