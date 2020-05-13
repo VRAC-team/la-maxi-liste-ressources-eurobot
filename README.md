@@ -132,6 +132,8 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ## 2.1 Cartes de développement et IDE
 
+### 2.1.1 Microcontroleurs:
+
 [STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
 
 > outils:
@@ -148,11 +150,19 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [Teensy](https://www.pjrc.com/teensy/)
 
-[PSoC](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
- 
-[BeagleBone](https://beagleboard.org/)
+[The amazing $1 microcontroller by Jay Carlson](https://jaycarlson.net/microcontrollers/)
 
-IDE universel: [platformio](https://platformio.org/): supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
+### 2.1.2 FPGA
+
+[Cheap FPGA Development Boards](https://joelw.id.au/FPGA/CheapFPGADevelopmentBoards)
+
+### 2.1.3 Autres
+
+[PlatformIO](https://platformio.org/): IDE qui supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
+
+[Cypress PSoC](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
+
+[BeagleBone](https://beagleboard.org/)
 
 ## 2.2 Moteurs et controleurs de moteurs
 
