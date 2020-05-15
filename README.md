@@ -107,14 +107,15 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ### 1.3.1 Planificateur de trajectoire
 
-[LIBRARY - The Kraken Pathfinding - A tentacle-based pathfinding library for nonholonomic robotic vehicles](https://github.com/kraken-robotics/The-Kraken-Pathfinding)
+[LIBRAIRIE- The Kraken Pathfinding - A tentacle-based pathfinding library for nonholonomic robotic vehicles](https://github.com/kraken-robotics/The-Kraken-Pathfinding)
 
-[LIBRARY - PythonRobotics, algorihtmes pour la robotique](https://atsushisakai.github.io/PythonRobotics/)
+[LIBRAIRIE - PythonRobotics: Python sample codes for robotics algorithms](https://atsushisakai.github.io/PythonRobotics/)
 
-[VIDEO - Exemple Nesnes, interface, objectif, pathfinding](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw)
+### 1.3.2 Intelligence Artificielle
 
-[LIBRARY - applied IA](https://github.com/MrDio/Applied-AI-Technologies)
+[LIBRAIRIE - applied IA](https://github.com/MrDio/Applied-AI-Technologies)
 
+[VIDEO - Coder une IA - alexnesnes](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), (depot GitHub Eurobot-AI)[https://github.com/nesnes/Eurobot-AI]
 ## 1.4 Balises
 
 [PDF - totofweb - Balise infrarouge](balise/totofweb-balises_IR.pdf)
@@ -144,9 +145,11 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ## 2.1 Cartes de développement et IDE
 
-### 2.1.1 Microcontroleurs:
+### 2.1.1 Microcontrôleurs:
 
 [Arduino](https://www.arduino.cc/)
+
+[Visual Studio Code](https://code.visualstudio.com/): rapide, modulaire, intégration de Arduino (compilation) [vidéo présentation Peronnin](https://www.youtube.com/watch?v=o2aD2kwinJM) 
 
 [STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
 
@@ -161,7 +164,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 > * [System Workbench for STM32](https://www.st.com/en/development-tools/sw4stm32.html): Supporte mbed (nécéssite une [manip pour corriger quelques erreurs](ide/fix_mbed_import_sw4stm32.txt))
 > * [Mbed online compiler](https://os.mbed.com/): IDE en ligne, pas de débogueur, intègre un gestionnaire de version. Attention cependant à avoir une solution de secour lors de la coupe au cas où il serait en maintenance quelques heures
 > * [Mbed Studio](https://os.mbed.com/studio/)
-> * [Visual Studio Code](https://code.visualstudio.com/): rapide, modulaire, intégration de Arduino (compilation) [vidéo présentation Peronnin](https://www.youtube.com/watch?v=o2aD2kwinJM) 
+
 
 [Teensy](https://www.pjrc.com/teensy/)
 
@@ -322,4 +325,4 @@ outils:
 
 [Elements of Robotics, Mordechai Ben-Ari, Francesco Mondada, 2018, Open Access](https://www.springer.com/gp/book/9783319625324)
 
-[Robot de recherche Facebook](https://pyrobot.org/)
+[PyRobot - light weight, high-level interface which provides hardware independent APIs for robotic manipulation and navigation by facebook research.](https://pyrobot.org/)
