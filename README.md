@@ -109,9 +109,9 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [LIBRARY - The Kraken Pathfinding - A tentacle-based pathfinding library for nonholonomic robotic vehicles](https://github.com/kraken-robotics/The-Kraken-Pathfinding)
 
-[LIBRARY - PythonRobotics](https://atsushisakai.github.io/PythonRobotics/)
+[LIBRARY - PythonRobotics, algorihtmes pour la robotique](https://atsushisakai.github.io/PythonRobotics/)
 
-[VIDEO - Exemple](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw)
+[VIDEO - Exemple Nesnes, interface, objectif, pathfinding](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw)
 
 [LIBRARY - applied IA](https://github.com/MrDio/Applied-AI-Technologies)
 
