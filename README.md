@@ -126,6 +126,9 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [FORUM - Pourquoi éviter le WiFi 2.4GHz](https://www.planete-sciences.org/forums/viewtopic.php?f=97&t=16969)
 
+## 1.6 Divers
+
+[Customizable Timing Belt in Fusion 360 by COM3](https://layershift.xyz/customgt2belt/), [GT2 printable Belt generator sur Thingiverse](https://www.thingiverse.com/thing:3458902). (lien par @Barbatronic)
 
 ---------------
 # 2. Composants, fabricants, sites marchands
@@ -156,7 +159,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ### 2.1.2 FPGA
 
-[WEB - Cheap FPGA Development Boards by Joel W.](https://joelw.id.au/FPGA/CheapFPGADevelopmentBoards)
+[WEB - Cheap FPGA Development Boards by Joel W.](https://joelw.id.au/FPGA/CheapFPGADevelopmentBoards). (lien par @alf_arobase)
 
 ### 2.1.3 Autres
 
@@ -274,7 +277,7 @@ Service d'usinage:
 
 outils:
 
-* [PCB panelizer & Gerber tool suite](http://blog.thisisnotrocketscience.nl/projects/pcb-panelizer/), [explication en vidéo par Christian Hortolland](https://www.youtube.com/watch?v=c5XWobI4Eog)
+* [PCB panelizer & Gerber tool suite](http://blog.thisisnotrocketscience.nl/projects/pcb-panelizer/), [explication en vidéo par Christian Hortolland](https://www.youtube.com/watch?v=c5XWobI4Eog). (lien par @King0vCh0uffe)
 * [gerbv](http://gerbv.geda-project.org/): A Free/Open Source Gerber Viewer
 
 ## CAO
