@@ -82,10 +82,16 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [PDF - TechTheTroll - Dimensionnement des moteurs de propulsion](https://techthetroll.files.wordpress.com/2016/06/techthetroll-dimensionnement-des-moteurs-de-propulsion.pdf)
 
+[WEB - Faulhaber - Drive Selection, outil d'aide au dimensionnement](https://www.faulhaber.com/fr/driveselection/fdst/)
+
 [VIDEO - Robert Cowan - Montage de réducteur planétaire sur un moteur brushless](https://www.youtube.com/watch?v=TfYZbjtgO0k)
 
 ### 1.2.4 Électronique
 [VIDEO -  Eric Peronnin (prof d'IUT) - Cours d'électronique (conception, CAO, FPGA)](https://www.youtube.com/channel/UCe3v5cVACw-5BKQOcwUaM8w/playlists)
+
+[WEB - SONELEC-MUSIQUE - Réalisations, Théorie et bases](https://www.sonelec-musique.com/electronique.html)
+
+[WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html)
 
 ## 1.3 Asservissement
 
@@ -115,7 +121,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [LIBRAIRIE - applied IA](https://github.com/MrDio/Applied-AI-Technologies)
 
-[VIDEO - Coder une IA - alexnesnes](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), (depot GitHub Eurobot-AI)[https://github.com/nesnes/Eurobot-AI]
+[VIDEO - Coder une IA - alexnesnes](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), [depot GitHub Eurobot-AI](https://github.com/nesnes/Eurobot-AI)
 ## 1.4 Balises
 
 [PDF - totofweb - Balise infrarouge](balise/totofweb-balises_IR.pdf)
@@ -232,8 +238,8 @@ Ordinateur à carte unique:
 Uniquement mécanique:
 
 * [Misumi](https://fr.misumi-ec.com/)
-* [Motedis](https://www.motedis.fr/): profilées alluminuum
-* [MakerBeam](https://www.makerbeam.com/): profilées alluminuum
+* [Motedis](https://www.motedis.fr/): profilées aluminum
+* [MakerBeam](https://www.makerbeam.com/): profilées aluminum
 
 Mixes mécanique/électronique:
 
@@ -244,13 +250,13 @@ Mixes mécanique/électronique:
 * [GoTronic](https://www.gotronic.fr/)
 * [Lextronic](https://www.lextronic.fr/)
 
-Modélisme, pour les batteries, chargeurs, moteurs DC, moteurs brushless, controleurs, servos, ...
+Modélisme, pour les batteries, chargeurs, moteurs DC, moteurs brushless, contrôleurs, servos, ...
 
 * [Miniplanes](https://www.miniplanes.fr/)
 * [HobbyKing](https://hobbyking.com/)
 * [HITEC](https://hitecrcd.com/)
 
-Plutot électronique:
+Plutôt électronique:
 
 * [Adafruit](https://www.adafruit.com/)
 * [Sparkfun](https://www.sparkfun.com/)
@@ -275,7 +281,7 @@ Service d'usinage:
 * [Usineur.fr](https://www.usineur.fr/)
 * [Protolabs](https://www.protolabs.fr/)
 * [Xmake](https://www.xmake.com/)
-* [Usinage boitier](https://www.frontpanelexpress.com/)
+* [Usinage boîtier](https://www.frontpanelexpress.com/)
 
 
 ---------------
@@ -283,7 +289,7 @@ Service d'usinage:
 
 ## PCB
 
-* [KiCad](https://kicad-pcb.org/): A Cross Platform and Open Source Electronics Design Automation Suite (Tutoriel)[https://www.youtube.com/watch?v=C9EWrKw9Qz8&list=PLuQznwVAhY2VoayfSraJjI-Yr2OSGmFKt]
+* [KiCad](https://kicad-pcb.org/): A Cross Platform and Open Source Electronics Design Automation Suite [Tutoriel](https://www.youtube.com/watch?v=C9EWrKw9Qz8&list=PLuQznwVAhY2VoayfSraJjI-Yr2OSGmFKt)
 * [LibrePCB](https://librepcb.org/): A new, powerful and intuitive EDA tool for everyone
 * [EasyEDA](https://easyeda.com/fr): Online PCB Design Tool
 * [Eagle](https://www.autodesk.fr/products/eagle/free-download)
