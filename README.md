@@ -87,6 +87,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 [VIDEO - Robert Cowan - Montage de réducteur planétaire sur un moteur brushless](https://www.youtube.com/watch?v=TfYZbjtgO0k)
 
 ### 1.2.4 Électronique
+
 [VIDEO -  Eric Peronnin (prof d'IUT) - Cours d'électronique (conception, CAO, FPGA)](https://www.youtube.com/channel/UCe3v5cVACw-5BKQOcwUaM8w/playlists)
 
 [WEB - SONELEC-MUSIQUE - Réalisations, Théorie et bases](https://www.sonelec-musique.com/electronique.html)
@@ -119,9 +120,10 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ### 1.3.2 Intelligence Artificielle
 
-[LIBRAIRIE - applied IA](https://github.com/MrDio/Applied-AI-Technologies)
+[VIDEO - alexnesnes - Coder une IA pour Eurobot](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), [depot GitHub Eurobot-AI](https://github.com/nesnes/Eurobot-AI)
 
-[VIDEO - Coder une IA - alexnesnes](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), [depot GitHub Eurobot-AI](https://github.com/nesnes/Eurobot-AI)
+[WEB - lecture "Applied Artificial Intelligence" at the University of Applied Sciences Esslingen](https://github.com/MrDio/Applied-AI-Technologies)
+
 ## 1.4 Balises
 
 [PDF - totofweb - Balise infrarouge](balise/totofweb-balises_IR.pdf)
@@ -155,7 +157,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [Arduino](https://www.arduino.cc/)
 
-[Visual Studio Code](https://code.visualstudio.com/): rapide, modulaire, intégration de Arduino (compilation) [vidéo présentation Peronnin](https://www.youtube.com/watch?v=o2aD2kwinJM) 
+IDE: [Visual Studio Code](https://code.visualstudio.com/): rapide, modulaire, intégration Arduino avec une extension [tutoriel vidéo par Eric Peronnin](https://www.youtube.com/watch?v=o2aD2kwinJM&list=PLuQznwVAhY2XaAnqx5CExigcnlw-sK4nP) 
 
 [STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
 
@@ -189,7 +191,7 @@ Ordinateur à carte unique:
 
 [Cypress PSoC 6](https://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-prototyping-kit-cy8cproto-063-ble), [Cypress PSoC 5](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
 
-[PlatformIO](https://platformio.org/): IDE qui supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
+[PlatformIO](https://platformio.org/): Extension pour VSCode qui supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
 
 ## 2.2 Moteurs et controleurs de moteurs
 
@@ -204,6 +206,7 @@ Ordinateur à carte unique:
 * [Fingertech](https://www.fingertechrobotics.com/products.php?cat=Wheels+%26+Hubs)
 * [BaneBots](http://www.banebots.com/category/T40P.html)
 * [Lynxmotion](https://www.robotshop.com/eu/fr/lynxmotion-roues.html)
+* [mcmracing](https://www.mcmracing.com/fr/47-pneus-inserts): Pneus et inserts de modélisme (lien par Rodger de Labo404)
 
 ## 2.4 Encodeurs
 
@@ -238,8 +241,8 @@ Ordinateur à carte unique:
 Uniquement mécanique:
 
 * [Misumi](https://fr.misumi-ec.com/)
-* [Motedis](https://www.motedis.fr/): profilées aluminum
-* [MakerBeam](https://www.makerbeam.com/): profilées aluminum
+* [Motedis](https://www.motedis.fr/): profilées aluminium
+* [MakerBeam](https://www.makerbeam.com/): profilées aluminium
 
 Mixes mécanique/électronique:
 
@@ -272,7 +275,8 @@ Fabricants de circuits imprimés:
 * [Aisler](https://aisler.net/)
 * [Eurocircuits](https://www.eurocircuits.com/)
 * [OSHPark](https://oshpark.com/)
-* [JLCPCB](https://jlcpcb.com/) compter au moins 1 mois de livraison
+* [JLCPCB](https://jlcpcb.com/) compter au moins 1 mois de livraison pour la livraison standard
+* [Seeed Studio](https://www.seeedstudio.com/fusion_pcb.html)
 * Comparateur de prix: [PCBShopper](https://pcbshopper.com/)
 
 Service d'usinage:
@@ -289,7 +293,7 @@ Service d'usinage:
 
 ## PCB
 
-* [KiCad](https://kicad-pcb.org/): A Cross Platform and Open Source Electronics Design Automation Suite [Tutoriel](https://www.youtube.com/watch?v=C9EWrKw9Qz8&list=PLuQznwVAhY2VoayfSraJjI-Yr2OSGmFKt)
+* [KiCad](https://kicad-pcb.org/): A Cross Platform and Open Source Electronics Design Automation Suite, [tutoriel vidéo par Eric Peronnin](https://www.youtube.com/watch?v=C9EWrKw9Qz8&list=PLuQznwVAhY2VoayfSraJjI-Yr2OSGmFKt)
 * [LibrePCB](https://librepcb.org/): A new, powerful and intuitive EDA tool for everyone
 * [EasyEDA](https://easyeda.com/fr): Online PCB Design Tool
 * [Eagle](https://www.autodesk.fr/products/eagle/free-download)
@@ -298,7 +302,7 @@ Service d'usinage:
 
 outils:
 
-* [PCB panelizer & Gerber tool suite](http://blog.thisisnotrocketscience.nl/projects/pcb-panelizer/), [explication en vidéo par Christian Hortolland](https://www.youtube.com/watch?v=c5XWobI4Eog). (lien par @King0vCh0uffe)
+* [PCB panelizer & Gerber tool suite](http://blog.thisisnotrocketscience.nl/projects/pcb-panelizer/), [tutoriel vidéo par Christian Hortolland](https://www.youtube.com/watch?v=c5XWobI4Eog). (lien par @King0vCh0uffe)
 * [gerbv](http://gerbv.geda-project.org/): A Free/Open Source Gerber Viewer
 
 ## CAO
@@ -325,9 +329,9 @@ outils:
 
 [Forum Planete Science / Coupe de France de robotique](https://www.planete-sciences.org/forums/)
 
-[Portail des sites web des équipes par PM-ROBOTIX](https://www.pm-robotix.eu/sites-de-la-coupe-et-des-equipes/)
-
 [Forum Robot Maker](https://www.robot-maker.com/forum/)
+
+[Portail des sites web des équipes par PM-ROBOTIX](https://www.pm-robotix.eu/sites-de-la-coupe-et-des-equipes/)
 
 [Elements of Robotics, Mordechai Ben-Ari, Francesco Mondada, 2018, Open Access](https://www.springer.com/gp/book/9783319625324)
 
