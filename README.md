@@ -82,7 +82,16 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [PDF - TechTheTroll - Dimensionnement des moteurs de propulsion](https://techthetroll.files.wordpress.com/2016/06/techthetroll-dimensionnement-des-moteurs-de-propulsion.pdf)
 
+[WEB - Faulhaber - Drive Selection, outil d'aide au dimensionnement](https://www.faulhaber.com/fr/driveselection/fdst/)
+
 [VIDEO - Robert Cowan - Montage de réducteur planétaire sur un moteur brushless](https://www.youtube.com/watch?v=TfYZbjtgO0k)
+
+### 1.2.4 Électronique
+[VIDEO -  Eric Peronnin (prof d'IUT) - Cours d'électronique (conception, CAO, FPGA)](https://www.youtube.com/channel/UCe3v5cVACw-5BKQOcwUaM8w/playlists)
+
+[WEB - SONELEC-MUSIQUE - Réalisations, Théorie et bases](https://www.sonelec-musique.com/electronique.html)
+
+[WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html)
 
 ## 1.3 Asservissement
 
@@ -104,8 +113,15 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ### 1.3.1 Planificateur de trajectoire
 
-[LIBRARIE - The Kraken Pathfinding - A tentacle-based pathfinding library for nonholonomic robotic vehicles](https://github.com/kraken-robotics/The-Kraken-Pathfinding)
+[LIBRAIRIE- The Kraken Pathfinding - A tentacle-based pathfinding library for nonholonomic robotic vehicles](https://github.com/kraken-robotics/The-Kraken-Pathfinding)
 
+[LIBRAIRIE - PythonRobotics: Python sample codes for robotics algorithms](https://atsushisakai.github.io/PythonRobotics/)
+
+### 1.3.2 Intelligence Artificielle
+
+[LIBRAIRIE - applied IA](https://github.com/MrDio/Applied-AI-Technologies)
+
+[VIDEO - Coder une IA - alexnesnes](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), [depot GitHub Eurobot-AI](https://github.com/nesnes/Eurobot-AI)
 ## 1.4 Balises
 
 [PDF - totofweb - Balise infrarouge](balise/totofweb-balises_IR.pdf)
@@ -135,9 +151,11 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ## 2.1 Cartes de développement et IDE
 
-### 2.1.1 Microcontroleurs:
+### 2.1.1 Microcontrôleurs:
 
 [Arduino](https://www.arduino.cc/)
+
+[Visual Studio Code](https://code.visualstudio.com/): rapide, modulaire, intégration de Arduino (compilation) [vidéo présentation Peronnin](https://www.youtube.com/watch?v=o2aD2kwinJM) 
 
 [STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
 
@@ -152,6 +170,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 > * [System Workbench for STM32](https://www.st.com/en/development-tools/sw4stm32.html): Supporte mbed (nécéssite une [manip pour corriger quelques erreurs](ide/fix_mbed_import_sw4stm32.txt))
 > * [Mbed online compiler](https://os.mbed.com/): IDE en ligne, pas de débogueur, intègre un gestionnaire de version. Attention cependant à avoir une solution de secour lors de la coupe au cas où il serait en maintenance quelques heures
 > * [Mbed Studio](https://os.mbed.com/studio/)
+
 
 [Teensy](https://www.pjrc.com/teensy/)
 
@@ -219,8 +238,8 @@ Ordinateur à carte unique:
 Uniquement mécanique:
 
 * [Misumi](https://fr.misumi-ec.com/)
-* [Motedis](https://www.motedis.fr/): profilées alluminuum
-* [MakerBeam](https://www.makerbeam.com/): profilées alluminuum
+* [Motedis](https://www.motedis.fr/): profilées aluminum
+* [MakerBeam](https://www.makerbeam.com/): profilées aluminum
 
 Mixes mécanique/électronique:
 
@@ -231,13 +250,13 @@ Mixes mécanique/électronique:
 * [GoTronic](https://www.gotronic.fr/)
 * [Lextronic](https://www.lextronic.fr/)
 
-Modélisme, pour les batteries, chargeurs, moteurs DC, moteurs brushless, controleurs, servos, ...
+Modélisme, pour les batteries, chargeurs, moteurs DC, moteurs brushless, contrôleurs, servos, ...
 
 * [Miniplanes](https://www.miniplanes.fr/)
 * [HobbyKing](https://hobbyking.com/)
 * [HITEC](https://hitecrcd.com/)
 
-Plutot électronique:
+Plutôt électronique:
 
 * [Adafruit](https://www.adafruit.com/)
 * [Sparkfun](https://www.sparkfun.com/)
@@ -253,6 +272,7 @@ Fabricants de circuits imprimés:
 * [Aisler](https://aisler.net/)
 * [Eurocircuits](https://www.eurocircuits.com/)
 * [OSHPark](https://oshpark.com/)
+* [JLCPCB](https://jlcpcb.com/) compter au moins 1 mois de livraison
 * Comparateur de prix: [PCBShopper](https://pcbshopper.com/)
 
 Service d'usinage:
@@ -261,6 +281,7 @@ Service d'usinage:
 * [Usineur.fr](https://www.usineur.fr/)
 * [Protolabs](https://www.protolabs.fr/)
 * [Xmake](https://www.xmake.com/)
+* [Usinage boîtier](https://www.frontpanelexpress.com/)
 
 
 ---------------
@@ -268,7 +289,7 @@ Service d'usinage:
 
 ## PCB
 
-* [KiCad](https://kicad-pcb.org/): A Cross Platform and Open Source Electronics Design Automation Suite
+* [KiCad](https://kicad-pcb.org/): A Cross Platform and Open Source Electronics Design Automation Suite [Tutoriel](https://www.youtube.com/watch?v=C9EWrKw9Qz8&list=PLuQznwVAhY2VoayfSraJjI-Yr2OSGmFKt)
 * [LibrePCB](https://librepcb.org/): A new, powerful and intuitive EDA tool for everyone
 * [EasyEDA](https://easyeda.com/fr): Online PCB Design Tool
 * [Eagle](https://www.autodesk.fr/products/eagle/free-download)
@@ -306,4 +327,8 @@ outils:
 
 [Portail des sites web des équipes par PM-ROBOTIX](https://www.pm-robotix.eu/sites-de-la-coupe-et-des-equipes/)
 
+[Forum Robot Maker](https://www.robot-maker.com/forum/)
+
 [Elements of Robotics, Mordechai Ben-Ari, Francesco Mondada, 2018, Open Access](https://www.springer.com/gp/book/9783319625324)
+
+[PyRobot - light weight, high-level interface which provides hardware independent APIs for robotic manipulation and navigation by facebook research.](https://pyrobot.org/)
