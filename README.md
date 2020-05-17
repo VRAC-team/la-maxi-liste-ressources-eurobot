@@ -3,11 +3,18 @@ La maxi liste des ressources pour faire (un bon) robot à Eurobot
 
 Ce repo est destiné à compiler et partager les ressources (cours/vidéos/composants/discussions/liens) en lien avec la compétition [Eurobot](https://www.eurobot.org/).
 
-Les cours, en PDF de préférence, sont sauvegardés sur le repo afin d'assure leur longévité (même si ça reste à prouver).
+Les cours, en PDF de préférence, sont sauvegardés sur le repo afin d'assurer leur longévité (même si ça reste à prouver).
 
-Si un document vous appartient et que vous souhaitez le faire retirer, merci de nous contact.
+Si un document vous appartient et que vous souhaitez le faire retirer, merci de nous contacter.
 
-Vous pouvez contribuer en créant une [Pull Request](https://github.com/VRAC-team/ressources/pulls)
+Vous pouvez contribuer à cette liste:
+
+* en nous contactant sur [twitter](https://twitter.com/VRAC_robotique) ou [facebook](https://www.facebook.com/ARDICRobotique/)
+* en postant un message sur le serveur discord: [Eurobot - CDR](https://discord.gg/tteC3Cp), dès qu'un lien intéressant est posté et qu'il aurait sa place ici, on s'occupe de le rajouter avec la mention (lien par @utilisateur)
+* en créant une [Issue](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/issues): on se charge de tout mettre en page au bon endroit
+* en créant une [Pull Request](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/pulls)
+
+**Merci aux [contributeurs](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/graphs/contributors) !** [Lien du git blame pour voir les modifications](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/blame/master/README.md)
 
 
 ---------------
@@ -150,6 +157,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [Customizable Timing Belt in Fusion 360 by COM3](https://layershift.xyz/customgt2belt/), [GT2 printable Belt generator sur Thingiverse](https://www.thingiverse.com/thing:3458902). (lien par @Barbatronic)
 
+
 ---------------
 # 2. Composants, fabricants, sites marchands
 
@@ -159,9 +167,9 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [Arduino](https://www.arduino.cc/)
 
-IDE: [Visual Studio Code](https://code.visualstudio.com/): rapide, modulaire, intégration Arduino avec une extension [tutoriel vidéo par Eric Peronnin](https://www.youtube.com/watch?v=o2aD2kwinJM&list=PLuQznwVAhY2XaAnqx5CExigcnlw-sK4nP)
-
-[Atom](https://atom.io/): Léger, Open-source, compatible avec la plupart des uC grace à [PlatformIO](https://platformio.org/)
+> IDE:
+> * [Visual Studio Code](https://code.visualstudio.com/): rapide, modulaire, intégration Arduino avec une extension [tutoriel vidéo par Eric Peronnin](https://www.youtube.com/watch?v=o2aD2kwinJM&list=PLuQznwVAhY2XaAnqx5CExigcnlw-sK4nP)
+> * [Atom](https://atom.io/): Léger, Open-source, compatible avec la plupart des uC grace à [PlatformIO](https://platformio.org/)
 
 [STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
 
@@ -186,7 +194,7 @@ IDE: [Visual Studio Code](https://code.visualstudio.com/): rapide, modulaire, in
 
 [WEB - Cheap FPGA Development Boards by Joel W.](https://joelw.id.au/FPGA/CheapFPGADevelopmentBoards). (lien par @alf_arobase)
 
-### 2.1.3 Autres
+### 2.1.3 Autres cartes de dev
 
 Ordinateur à carte unique:
 
@@ -195,7 +203,19 @@ Ordinateur à carte unique:
 
 [Cypress PSoC 6](https://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-prototyping-kit-cy8cproto-063-ble), [Cypress PSoC 5](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
 
-[PlatformIO](https://platformio.org/): Extension pour IDE qui supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
+### 2.1.4 Outils pour le dev
+
+[PlatformIO](https://platformio.org/): Extension pour de [nombreuses IDE](https://platformio.org/install/integration) (VSCode, Atom, CLion, CodeBlocks, ...) qui supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
+
+[Serial Port Plotter](https://github.com/CieNTi/serial_port_plotter): windows application that displays real time data from serial port, built with Qt
+
+[ScriptCommunicator](https://github.com/szieke/ScriptCommunicator_serial-terminal): scriptable cross-platform data terminal which supports serial port (RS232, USB to serial), UDP, TCP client/server, SPI, I2C and CAN
+
+[YAT: Yet Another Terminal](https://sourceforge.net/projects/y-a-terminal/): windows application supports RS-232/422/423/485 as well as TCP/IP Client/Server/AutoSocket, UDP/IP Client/Server/PairSocket and USB Ser/HID
+
+[PlotJuggler](https://github.com/facontidavide/PlotJuggler): QT5 based application to display time series in plots, ROS integration
+
+[MobaXterm](https://mobaxterm.mobatek.net/): Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more
 
 ## 2.2 Moteurs et controleurs de moteurs
 
