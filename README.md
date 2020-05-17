@@ -26,7 +26,7 @@ Vous pouvez contribuer en créant une [Pull Request](https://github.com/VRAC-tea
 > 7. Essais avec enregistrements
 > 8. Asservissement
 > 9. Quelques questions réponses
-> 
+>
 > [**PDF - RCVA - Réflexions sur un robot Eurobot**](http://www.rcva.fr/wp-content/uploads/2016/12/devoir_de_vacances.pdf)
 
 **Cubot: Asservissement polaire en 6 chapitres**
@@ -38,11 +38,11 @@ Vous pouvez contribuer en créant une [Pull Request](https://github.com/VRAC-tea
 > 5. Calcul des rampes de vitesse
 > 6. PID
 > 7. Synthèse
-> 
+>
 > [**PDF - Atelier asservissement polaire**](asservissement/Cubot-atelier_asservissement.pdf)
-> 
+>
 > [**EXCEL - Simulation asservissement polaire**](asservissement/Cubot-asservissement.xlsx)
-> 
+>
 > [EXCEL - Génération de profile trapézoidal de vitesse](asservissement/Cubot-profil_de_vitesse.xlsx)
 
 [**Les dix commandements version OMyBot**](https://twitter.com/TeamOmybot/status/1128554678101467136)
@@ -157,7 +157,9 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [Arduino](https://www.arduino.cc/)
 
-IDE: [Visual Studio Code](https://code.visualstudio.com/): rapide, modulaire, intégration Arduino avec une extension [tutoriel vidéo par Eric Peronnin](https://www.youtube.com/watch?v=o2aD2kwinJM&list=PLuQznwVAhY2XaAnqx5CExigcnlw-sK4nP) 
+IDE: [Visual Studio Code](https://code.visualstudio.com/): rapide, modulaire, intégration Arduino avec une extension [tutoriel vidéo par Eric Peronnin](https://www.youtube.com/watch?v=o2aD2kwinJM&list=PLuQznwVAhY2XaAnqx5CExigcnlw-sK4nP)
+
+[Atom](https://atom.io/): Léger, Open-source, compatible avec la plupart des uC grace à [PlatformIO](https://platformio.org/)
 
 [STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
 
@@ -191,14 +193,21 @@ Ordinateur à carte unique:
 
 [Cypress PSoC 6](https://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-prototyping-kit-cy8cproto-063-ble), [Cypress PSoC 5](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
 
-[PlatformIO](https://platformio.org/): Extension pour VSCode qui supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
+[PlatformIO](https://platformio.org/): Extension pour IDE qui supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
 
 ## 2.2 Moteurs et controleurs de moteurs
+
+### 2.2.1 Moteurs DC & Brushless
 
 * [Controleur brushless oDrive](https://odriverobotics.com/)
 * [LM628/LM629 Precision Motion Controller](http://www.ti.com/lit/ds/symlink/lm629.pdf)
 * [Faulhaber](https://www.faulhaber.com/)
 * [Maxon Motor](https://www.maxongroup.com/)
+
+### 2.2.2 Moteurs pas-à-pas
+
+* [OMC-StepperOnline](https://www.omc-stepperonline.com/)
+* [Trinamic](https://www.trinamic.com/)
 
 ## 2.3 Roues
 
