@@ -12,13 +12,13 @@ Vous pouvez contribuer à cette liste:
 * en nous contactant sur [twitter](https://twitter.com/VRAC_robotique) ou [facebook](https://www.facebook.com/ARDICRobotique/)
 * en postant un message sur le serveur discord: [Eurobot - CDR](https://discord.gg/tteC3Cp), dès qu'un lien intéressant est posté et qu'il aurait sa place ici, on s'occupe de le rajouter avec la mention (lien par @utilisateur)
 * en créant une [Issue](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/issues): on se charge de tout mettre en page au bon endroit
-* en créant une [Pull Request](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/pulls)
+* en créant une [Pull Request](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/pulls): vous vous débrouillez pour mettre la ressource au bon endroit et avec la mise en page qui va bien ^^
 
 **Merci aux [contributeurs](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/graphs/contributors) !** [Lien du git blame pour voir les modifications](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/blame/master/README.md)
 
 
 ---------------
-# 1. Ressources académiques
+# 1. Ressources académiques spécifiques à Eurobot
 
 ## 1.1 Pour bien commencer
 
@@ -85,21 +85,11 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ### 1.2.3 Moteurs
 
-[PDF - ANCR - Dimensionner ses moteurs](moteurs/ANCR-Dimensionner_ses_moteurs.pdf)
+[**PDF - ANCR - Dimensionner ses moteurs**](moteurs/ANCR-Dimensionner_ses_moteurs.pdf)
 
 [PDF - TechTheTroll - Dimensionnement des moteurs de propulsion](https://techthetroll.files.wordpress.com/2016/06/techthetroll-dimensionnement-des-moteurs-de-propulsion.pdf)
 
 [WEB - Faulhaber - Drive Selection, outil d'aide au dimensionnement](https://www.faulhaber.com/fr/driveselection/fdst/)
-
-[VIDEO - Robert Cowan - Montage de réducteur planétaire sur un moteur brushless](https://www.youtube.com/watch?v=TfYZbjtgO0k)
-
-### 1.2.4 Électronique
-
-[VIDEO -  Eric Peronnin (prof d'IUT) - Cours d'électronique (conception, CAO, FPGA)](https://www.youtube.com/channel/UCe3v5cVACw-5BKQOcwUaM8w/playlists)
-
-[WEB - SONELEC-MUSIQUE - Réalisations, Théorie et bases](https://www.sonelec-musique.com/electronique.html)
-
-[WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html)
 
 ## 1.3 Asservissement
 
@@ -119,18 +109,6 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [PDF - Rich LeGrand - Closed-Loop Motion Control for Mobile Robotics](https://www.cs.hmc.edu/~dodds/projects/RobS05/XPort/XPortArticle.pdf): un Game Boy Advance, des roues holonomes, des legos
 
-### 1.3.1 Planificateur de trajectoire
-
-[LIBRAIRIE- The Kraken Pathfinding - A tentacle-based pathfinding library for nonholonomic robotic vehicles](https://github.com/kraken-robotics/The-Kraken-Pathfinding)
-
-[LIBRAIRIE - PythonRobotics: Python sample codes for robotics algorithms](https://atsushisakai.github.io/PythonRobotics/)
-
-### 1.3.2 Intelligence Artificielle
-
-[VIDEO - alexnesnes - Coder une IA pour Eurobot](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), [depot GitHub Eurobot-AI](https://github.com/nesnes/Eurobot-AI)
-
-[WEB - lecture "Applied Artificial Intelligence" at the University of Applied Sciences Esslingen](https://github.com/MrDio/Applied-AI-Technologies)
-
 ## 1.4 Balises
 
 [PDF - totofweb - Balise infrarouge](balise/totofweb-balises_IR.pdf)
@@ -149,13 +127,19 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [VIDEO - ESEO - simulateur de match](https://www.youtube.com/watch?v=fo-87AF2Fr4), [article sur leur site](https://robot-eseo.fr/strategie-du-robot-sur-simulateur/)
 
-## 1.6 Communication sans-fil
+## 1.6 Planificateur de trajectoire et évitement
+
+[LIBRAIRIE- The Kraken Pathfinding - A tentacle-based pathfinding library for nonholonomic robotic vehicles](https://github.com/kraken-robotics/The-Kraken-Pathfinding)
+
+[LIBRAIRIE - PythonRobotics: Python sample codes for robotics algorithms](https://atsushisakai.github.io/PythonRobotics/)
+
+## 1.7 Intelligence Artificielle
+
+[VIDEO - alexnesnes - Coder une IA pour Eurobot](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), [depot GitHub Eurobot-AI](https://github.com/nesnes/Eurobot-AI)
+
+## 1.8 Communication sans-fil
 
 [FORUM - Pourquoi éviter le WiFi 2.4GHz](https://www.planete-sciences.org/forums/viewtopic.php?f=97&t=16969)
-
-## 1.6 Divers
-
-[Customizable Timing Belt in Fusion 360 by COM3](https://layershift.xyz/customgt2belt/), [GT2 printable Belt generator sur Thingiverse](https://www.thingiverse.com/thing:3458902). (lien par @Barbatronic)
 
 
 ---------------
@@ -205,7 +189,7 @@ Ordinateur à carte unique:
 
 ### 2.1.4 Outils pour le dev
 
-[PlatformIO](https://platformio.org/): Extension pour de [nombreuses IDE](https://platformio.org/install/integration) (VSCode, Atom, CLion, CodeBlocks, ...) qui supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
+[PlatformIO](https://platformio.org/): Extension pour de [nombreux IDE](https://platformio.org/install/integration) (VSCode, Atom, CLion, CodeBlocks, ...) qui supporte plus de 800 cartes (dont STM32, Teensy, Arduino, ESP32, PIC32, ...)
 
 [Serial Port Plotter](https://github.com/CieNTi/serial_port_plotter): windows application that displays real time data from serial port, built with Qt
 
@@ -358,12 +342,28 @@ outils:
 
 ## 4.2 Liens en vrac
 
-[Forum Planete Science / Coupe de France de robotique](https://www.planete-sciences.org/forums/)
+### 4.2.1 Forums
 
-[Forum Robot Maker](https://www.robot-maker.com/forum/)
+* [Forum Planete Science / Coupe de France de robotique](https://www.planete-sciences.org/forums/)
+* [Forum Robot Maker](https://www.robot-maker.com/forum/)
+* [Forum Usinages.com (catégorie Robotique et Domotique)](https://www.usinages.com/forums/robotique-et-domotique.125/)
+
+### 4.2.2 Électronique
+
+* [VIDEO - Eric Peronnin (prof d'IUT) - Cours d'électronique (conception, CAO, FPGA)](https://www.youtube.com/channel/UCe3v5cVACw-5BKQOcwUaM8w/playlists)
+* [WEB - SONELEC-MUSIQUE - Réalisations, Théorie et bases](https://www.sonelec-musique.com/electronique.html)
+* [WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html)
+
+### 4.2.3 Autres
 
 [Portail des sites web des équipes par PM-ROBOTIX](https://www.pm-robotix.eu/sites-de-la-coupe-et-des-equipes/)
+
+[Customizable Timing Belt in Fusion 360 by COM3](https://layershift.xyz/customgt2belt/), [GT2 printable Belt generator sur Thingiverse](https://www.thingiverse.com/thing:3458902). (lien par @Barbatronic)
 
 [Elements of Robotics, Mordechai Ben-Ari, Francesco Mondada, 2018, Open Access](https://www.springer.com/gp/book/9783319625324)
 
 [PyRobot - light weight, high-level interface which provides hardware independent APIs for robotic manipulation and navigation by facebook research.](https://pyrobot.org/)
+
+[VIDEO - Robert Cowan - Montage de réducteur planétaire sur un moteur brushless](https://www.youtube.com/watch?v=TfYZbjtgO0k)
+
+[WEB - lecture "Applied Artificial Intelligence" at the University of Applied Sciences Esslingen](https://github.com/MrDio/Applied-AI-Technologies)
