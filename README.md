@@ -12,9 +12,9 @@ Vous pouvez contribuer à cette liste:
 * en nous contactant sur [twitter](https://twitter.com/VRAC_robotique) ou [facebook](https://www.facebook.com/ARDICRobotique/)
 * en postant un message sur le serveur discord: [Eurobot - CDR](https://discord.gg/tteC3Cp), dès qu'un lien intéressant est posté et qu'il aurait sa place ici, on s'occupe de le rajouter avec la mention (lien par @utilisateur)
 * en créant une [Issue](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/issues): on se charge de tout mettre en page au bon endroit
-* en créant une [Pull Request](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/pulls): vous vous débrouillez pour mettre la ressource au bon endroit et avec la mise en page qui va bien ^^
+* en créant une [Pull Request](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/pulls): vous vous débrouillez pour mettre la ressource au bon endroit et avec la mise en page qui va bien
 
-**Merci aux [contributeurs](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/graphs/contributors) !** [Lien du git blame pour voir les modifications](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/blame/master/README.md)
+**Merci aux équipes pour ces documents et aux [contributeurs de cette liste](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/graphs/contributors) !** [Lien du git blame pour voir les modifications](https://github.com/VRAC-team/la-maxi-liste-ressources-eurobot/blame/master/README.md)
 
 
 ---------------
@@ -141,6 +141,11 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [FORUM - Pourquoi éviter le WiFi 2.4GHz](https://www.planete-sciences.org/forums/viewtopic.php?f=97&t=16969)
 
+## 1.9 Architecture des robots
+
+[WEB - Robotech Legends 2019](https://twitter.com/robotech34/status/1129147494859005952)
+
+[Librarie pour Diagrams.net](https://drive.google.com/file/d/1W76g7xKKJeluGIWmfG8v30gIhi9cbWxQ/view?usp=sharing) (anciennement draw.io) pour déssiner votre propre architecture. (lien par @kmikazevolutek)
 
 ---------------
 # 2. Composants, fabricants, sites marchands
@@ -215,6 +220,12 @@ Ordinateur à carte unique:
 * [OMC-StepperOnline](https://www.omc-stepperonline.com/)
 * [Trinamic](https://www.trinamic.com/)
 
+### 2.2.3 Servomoteurs
+
+* [HITEC](https://hitecrcd.com/)
+* [HerkuleX DRS-0101](http://hovis.co.kr/guide/main_eng.html)
+* [Dynamixel AX-12](http://www.robotis.us/ax-series/)
+
 ## 2.3 Roues
 
 * [JSumo](https://www.jsumo.com/wheels)
@@ -272,7 +283,6 @@ Modélisme, pour les batteries, chargeurs, moteurs DC, moteurs brushless, contr�
 
 * [Miniplanes](https://www.miniplanes.fr/)
 * [HobbyKing](https://hobbyking.com/)
-* [HITEC](https://hitecrcd.com/)
 
 Plutôt électronique:
 
@@ -339,6 +349,7 @@ outils:
 * [ESEO](https://github.com/ClubRobotEseo)
 * [EsialRobotik](https://github.com/EsialRobotik)
 * [ARIG Robotique](https://github.com/ARIG-Robotique)
+* [APB Team](http://git.ni.fr.eu.org/apbteam.git/tree/)
 
 ## 4.2 Liens en vrac
 
@@ -350,6 +361,7 @@ outils:
 
 ### 4.2.2 Électronique
 
+* [VIDEO - 10 erreurs de soudure à éviter](https://www.youtube.com/watch?v=Fp37DPZVdRI) (lien par @alf_arobase)
 * [VIDEO - Eric Peronnin (prof d'IUT) - Cours d'électronique (conception, CAO, FPGA)](https://www.youtube.com/channel/UCe3v5cVACw-5BKQOcwUaM8w/playlists)
 * [WEB - SONELEC-MUSIQUE - Réalisations, Théorie et bases](https://www.sonelec-musique.com/electronique.html)
 * [WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html)
