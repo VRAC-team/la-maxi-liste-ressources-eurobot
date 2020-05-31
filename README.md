@@ -350,6 +350,7 @@ outils:
 * [EsialRobotik](https://github.com/EsialRobotik)
 * [ARIG Robotique](https://github.com/ARIG-Robotique)
 * [APB Team](http://git.ni.fr.eu.org/apbteam.git/tree/)
+* [GRUM](https://gitlab.com/grumoncton)
 
 ## 4.2 Liens en vrac
 
