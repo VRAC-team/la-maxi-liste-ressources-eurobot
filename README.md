@@ -189,6 +189,7 @@ Ordinateur à carte unique:
 
 * [RaspberryPi](https://www.raspberrypi.org/products/)
 * [BeagleBone](https://beagleboard.org/)
+* [NVidia Jetson](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/jetson-nano/)
 
 [Cypress PSoC 6](https://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-prototyping-kit-cy8cproto-063-ble), [Cypress PSoC 5](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and)
 
@@ -233,6 +234,7 @@ Ordinateur à carte unique:
 * [BaneBots](http://www.banebots.com/category/T40P.html)
 * [Lynxmotion](https://www.robotshop.com/eu/fr/lynxmotion-roues.html)
 * [mcmracing](https://www.mcmracing.com/fr/47-pneus-inserts): Pneus et inserts de modélisme (lien par Rodger de Labo404)
+* [EuroRC](https://www.eurorc.com/category/84/wheels): Livraison très rapide
 
 ## 2.4 Encodeurs
 
@@ -246,6 +248,8 @@ Ordinateur à carte unique:
 
 * [Capteurs de distance à moyenne portée SICK, laser classe 1 ou 2, ou infra-rouge](https://www.sick.com/fr/fr/capteurs-de-distance/capteurs-de-distance-a-moyenne-portee/c/g176373)
 * [Capteurs Time-of-Flight STMicroelectronics](https://www.st.com/en/imaging-and-photonics-solutions/proximity-sensors.html#products)
+* [Slamtec RPLida A1](https://www.slamtec.com/en/Lidar/A1)
+* [Ydlidar X4](https://www.ydlidar.com/products/view/5.html)
 
 ## 2.6 Pneumatique
 
@@ -261,14 +265,39 @@ Ordinateur à carte unique:
 * [OpenMV](https://openmv.io/)
 * [JeVois](https://www.jevoisinc.com/)
 * [Pixy](https://pixycam.com/)
+* [Intel RealSense](https://www.intel.fr/content/www/fr/fr/architecture-and-technology/realsense-overview.html)
+
+## 2.7 Connectique et câblage
+
+* [Wurth Electronik](https://www.we-online.com/catalog/en/em/connectors/)
+* [TE](https://www.te.com/)
+* [Samtec](https://www.samtec.com/)
 
 ## 2.8 Sites marchands en vrac
+
+Modélisme, pour les batteries, chargeurs, moteurs DC, moteurs brushless, contrôleurs, servos, ...
+
+* [Miniplanes](https://www.miniplanes.fr/)
+* [HobbyKing](https://hobbyking.com/)
+* [mcmracing](https://www.mcmracing.com/)
+* [EuroRC](https://www.eurorc.com/)
 
 Uniquement mécanique:
 
 * [Misumi](https://fr.misumi-ec.com/)
 * [Motedis](https://www.motedis.fr/): profilées aluminium
 * [MakerBeam](https://www.makerbeam.com/): profilées aluminium
+* [Systeal](https://www.systeal.com/fr/): profilées aluminium
+* [Technic-Achat](https://www.technic-achat.com/): profilées aluminium
+* [123-Roulements](https://www.123roulement.be/): roulements
+
+Visserie:
+
+* [Bossard](https://eu.shop.bossard.com/fr/fr/)
+* [Cergy-Vis](https://www.cergy-vis.fr/)
+* [Vis Express](https://www.vis-express.fr/en/)
+* [Bricovis](https://www.bricovis.fr/)
+* [Technifix](http://www.technifix.be/)
 
 Mixes mécanique/électronique:
 
@@ -278,30 +307,32 @@ Mixes mécanique/électronique:
 * [Conrad](https://www.conrad.fr/)
 * [GoTronic](https://www.gotronic.fr/)
 * [Lextronic](https://www.lextronic.fr/)
-
-Modélisme, pour les batteries, chargeurs, moteurs DC, moteurs brushless, contrôleurs, servos, ...
-
-* [Miniplanes](https://www.miniplanes.fr/)
-* [HobbyKing](https://hobbyking.com/)
+* [Distrelec](https://www.distrelec.be/)
 
 Plutôt électronique:
 
 * [Adafruit](https://www.adafruit.com/)
 * [Sparkfun](https://www.sparkfun.com/)
+* [Antratek](https://www.antratek.com/)
+* [Watterott](https://shop.watterott.com/)
 
 Uniquement électronique:
 
 * [Mouser](https://www.mouser.fr/)
 * [Farnell](https://fr.farnell.com/)
 * [Digi-Key](https://www.digikey.fr/)
+* [TME](https://www.tme.eu/fr/)
+* [Arrow](https://www.arrow.com/fr-fr)
+* [rutronik24](https://www.rutronik24.com/)
 
 Fabricants de circuits imprimés:
 
 * [Aisler](https://aisler.net/)
 * [Eurocircuits](https://www.eurocircuits.com/)
 * [OSHPark](https://oshpark.com/)
-* [JLCPCB](https://jlcpcb.com/) compter au moins 1 mois de livraison pour la livraison standard
-* [Seeed Studio](https://www.seeedstudio.com/fusion_pcb.html)
+* [PCBWay](https://www.pcbway.com/): Assemblage possible
+* [Seeed Studio](https://www.seeedstudio.com/fusion_pcb.html): Assemblage possible
+* [JLCPCB](https://jlcpcb.com/): Assemblage possible (attention, limité à leur catalogue de pièces) => compter au moins 1 mois de livraison pour la livraison standard
 * Comparateur de prix: [PCBShopper](https://pcbshopper.com/)
 
 Service d'usinage:
@@ -311,6 +342,21 @@ Service d'usinage:
 * [Protolabs](https://www.protolabs.fr/)
 * [Xmake](https://www.xmake.com/)
 * [Usinage boîtier](https://www.frontpanelexpress.com/)
+
+Impression Vinyl:
+
+* [Pixart printing](https://fr.pixartprinting.be/)
+
+Plastiques (plexi, acrylique, dibond, etc...):
+
+* [Lacrylicshop](https://www.decoupe-plexi-sur-mesure.com/)
+* [Plexiglas-shop](https://www.plexiglas-shop.com/)
+* [SuperPlastic](https://www.superplastic.be/)
+* [Pyrasied](https://www.pyrasied.nl/)
+
+Filaments 3D spéciaux:
+
+* [Volcano PLA](https://www.formfutura.com/shop/product/volcano-pla-black-980): PLA à haute resistance à "re-cuire" après impression pour solidifier la liaison inter-couches
 
 
 ---------------
