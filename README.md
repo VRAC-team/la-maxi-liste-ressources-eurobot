@@ -375,6 +375,7 @@ outils:
 
 * [PCB panelizer & Gerber tool suite](http://blog.thisisnotrocketscience.nl/projects/pcb-panelizer/), [tutoriel vidéo par Christian Hortolland](https://www.youtube.com/watch?v=c5XWobI4Eog). (lien par @King0vCh0uffe)
 * [gerbv](http://gerbv.geda-project.org/): A Free/Open Source Gerber Viewer
+* [PCB CheckList](https://github.com/azonenberg/pcb-checklist): A complete PCB checklist
 
 ## CAO
 
