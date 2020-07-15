@@ -429,3 +429,5 @@ outils:
 [WEB - lecture "Applied Artificial Intelligence" at the University of Applied Sciences Esslingen](https://github.com/MrDio/Applied-AI-Technologies)
 
 [La RACHE, une méthodologie réaliste mais formaliste - par Sukender](https://www.la-rache.com/img/a1_rache.pdf), [Mesures en système pifométrique](https://www.la-rache.com/img/unites.pdf)
+
+[Calculateur de courroie](https://www.omnicalculator.com/physics/belt-length)
