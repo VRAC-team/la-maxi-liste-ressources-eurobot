@@ -109,6 +109,8 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 [PDF - Rich LeGrand - Closed-Loop Motion Control for Mobile Robotics](https://www.cs.hmc.edu/~dodds/projects/RobS05/XPort/XPortArticle.pdf): un Game Boy Advance, des roues holonomes, des legos
 
+[WEB - Implémenter un PID sans faire de calculs ! - Ferdinand Piette](http://www.ferdinandpiette.com/blog/2011/08/implementer-un-pid-sans-faire-de-calculs/)
+
 ## 1.4 Balises
 
 [PDF - totofweb - Balise infrarouge](balise/totofweb-balises_IR.pdf)
@@ -414,11 +416,19 @@ outils:
 * [WEB - SONELEC-MUSIQUE - Réalisations, Théorie et bases](https://www.sonelec-musique.com/electronique.html)
 * [WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html)
 
-### 4.2.3 Autres
+### 4.2.3 Transmission de puissance et guidage
 
-[Portail des sites web des équipes par PM-ROBOTIX](https://www.pm-robotix.eu/sites-de-la-coupe-et-des-equipes/)
+[Génération de pignon et crémaillère](https://www.igus.fr/info/3d-print-gears), fichiers de CAO téléchargeables pour les imprimer en 3D ou les ajouter dans un assemblage
 
 [Customizable Timing Belt in Fusion 360 by COM3](https://layershift.xyz/customgt2belt/), [GT2 printable Belt generator sur Thingiverse](https://www.thingiverse.com/thing:3458902). (lien par @Barbatronic)
+
+[Calculateur de longueur de courroie](https://www.bbman.com/belt-length-calculator/)
+
+[Système de guidage linéaire motorisé](https://gitlab.cba.mit.edu/jakeread/pgd), conçu pour être fabriqué avec de la découpe laser et de l'impression 3D (lien par @Barbatronic)
+
+### 4.2.4 Autres
+
+[Portail des sites web des équipes par PM-ROBOTIX](https://www.pm-robotix.eu/sites-de-la-coupe-et-des-equipes/)
 
 [Elements of Robotics, Mordechai Ben-Ari, Francesco Mondada, 2018, Open Access](https://www.springer.com/gp/book/9783319625324)
 
@@ -428,6 +438,4 @@ outils:
 
 [WEB - lecture "Applied Artificial Intelligence" at the University of Applied Sciences Esslingen](https://github.com/MrDio/Applied-AI-Technologies)
 
-[La RACHE, une méthodologie réaliste mais formaliste - par Sukender](https://www.la-rache.com/img/a1_rache.pdf), [Mesures en système pifométrique](https://www.la-rache.com/img/unites.pdf)
-
-[Calculateur de courroie](https://www.omnicalculator.com/physics/belt-length)
+[La RACHE, une méthodologie réaliste mais formaliste - par Sukender](https://www.la-rache.com/img/a1_rache.pdf), [Système d'unités pifométriques](https://www.la-rache.com/img/unites.pdf)
