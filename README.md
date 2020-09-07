@@ -85,9 +85,11 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ### 1.2.3 Moteurs
 
-[**PDF - ANCR - Dimensionner ses moteurs**](moteurs/ANCR-Dimensionner_ses_moteurs.pdf)
+[PDF - ANCR - Dimensionner ses moteurs](moteurs/ANCR-Dimensionner_ses_moteurs.pdf)
 
 [PDF - TechTheTroll - Dimensionnement des moteurs de propulsion](https://techthetroll.files.wordpress.com/2016/06/techthetroll-dimensionnement-des-moteurs-de-propulsion.pdf)
+
+[WEB - RobotShop - Outil de Dimensionnement d'un moteur d'entrainement](https://www.robotshop.com/community/blog/show/dimensionnement-dun-moteur-dentranement) (lien par @kmikazevolutek)
 
 [WEB - Faulhaber - Drive Selection, outil d'aide au dimensionnement](https://www.faulhaber.com/fr/driveselection/fdst/)
 
@@ -246,14 +248,14 @@ Ordinateur à carte unique:
 * [rotatif inductif POSIC](https://www.posic.com/EN/products/rotary-encoders.html)
 * [LS7366R 32-bit quadrature counter with serial interface](https://lsicsi.com/datasheets/LS7366R.pdf)
 
-## 2.5 Capteurs de distance
+## 2.5 Capteurs de distance, lidars
 
 * [Capteurs de distance à moyenne portée SICK, laser classe 1 ou 2, ou infra-rouge](https://www.sick.com/fr/fr/capteurs-de-distance/capteurs-de-distance-a-moyenne-portee/c/g176373)
 * [Capteurs Time-of-Flight STMicroelectronics](https://www.st.com/en/imaging-and-photonics-solutions/proximity-sensors.html#products)
 * [Slamtec RPLida A1](https://www.slamtec.com/en/Lidar/A1)
 * [Ydlidar X4](https://www.ydlidar.com/products/view/5.html)
 
-## 2.6 Pneumatique
+## 2.6 Ventouses, pompes à vide, composants pour le vide
 
 * [Coval](https://www.coval.fr/produits/)
 * [Piab](https://www.piab.com/fr-FR/Produits/ventouses/)
