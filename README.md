@@ -254,6 +254,7 @@ Ordinateur à carte unique:
 
 * [Capteurs de distance à moyenne portée SICK, laser classe 1 ou 2, ou infra-rouge](https://www.sick.com/fr/fr/capteurs-de-distance/capteurs-de-distance-a-moyenne-portee/c/g176373)
 * [Capteurs Time-of-Flight STMicroelectronics](https://www.st.com/en/imaging-and-photonics-solutions/proximity-sensors.html#products)
+* [Capteurs de distance à ultrason/laser Baumer](https://www.baumer.com/fr/fr/apercu-du-produits/mesure-de-distance/c/287)
 * [Slamtec RPLida A1](https://www.slamtec.com/en/Lidar/A1)
 * [Ydlidar X4](https://www.ydlidar.com/products/view/5.html)
 
