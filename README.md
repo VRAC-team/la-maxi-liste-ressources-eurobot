@@ -230,6 +230,8 @@ Ordinateur à carte unique:
 * [HITEC](https://hitecrcd.com/)
 * [HerkuleX DRS-0101](http://hovis.co.kr/guide/main_eng.html)
 * [Dynamixel AX-12](http://www.robotis.us/ax-series/)
+* [KST Digital Technology](https://www.kstsz.com/)
+* [Dongguan Dsservo Technology](https://www.dsservo.com/en/index.asp)
 
 ## 2.3 Roues
 
