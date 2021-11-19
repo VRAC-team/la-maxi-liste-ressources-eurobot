@@ -478,19 +478,18 @@ Composants électroniques:
 * [Arrow](https://www.arrow.com/fr-fr)
 * [rutronik24](https://www.rutronik24.com/)
 
-Divers
-* [RS Components](https://fr.rs-online.com/)
-
+Fabricants:
 * [Pololu](https://www.pololu.com/)
 * [Sparkfun](https://www.sparkfun.com/)
 * [Adafruit](https://www.adafruit.com/)
 
+Distributeurs:
 * [GoTronic](https://www.gotronic.fr/)
 * [Lextronic](https://www.lextronic.fr/)
-* [Conrad](https://www.conrad.fr/)
+* [RS Components](https://fr.rs-online.com/)
 * [RobotShop](https://www.robotshop.com/)
-
-* [Distrelec](https://www.distrelec.be/)
+* [Conrad](https://www.conrad.fr/)
+* [Distrelec](https://www.distrelec.fr/)
 * [Antratek](https://www.antratek.com/)
 * [Watterott](https://shop.watterott.com/)
 
