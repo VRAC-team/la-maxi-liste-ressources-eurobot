@@ -81,9 +81,10 @@ Vous pouvez contribuer à cette maxi liste:
   5.1 Modélisme
   5.2 Mécanique
   5.3 Electronique
-  5.4 Circuit imprimé
-  5.5 Usinage
-  5.6 Visserie
+  5.4 Mix électronique/mécanique
+  5.5 Circuit imprimé
+  5.6 Usinage
+  5.7 Visserie
 
 6. Logiciels de CAO
   6.1 CAO mécanique
@@ -232,7 +233,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ## 2.7 Intelligence artificielle
 
-* [VIDEO - alexnesnes - Coder une IA pour Eurobot](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), [depot GitHub Eurobot-AI](https://github.com/nesnes/Eurobot-AI)
+* [VIDEO - @nesnes - Coder une IA pour Eurobot](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), [depot GitHub Eurobot-AI](https://github.com/nesnes/Eurobot-AI)
 
 ## 2.8 Communication sans-fil
 
@@ -332,6 +333,7 @@ IDE:
 Visualisation de données:
 * [Serial Port Plotter](https://github.com/CieNTi/serial_port_plotter): windows application that displays real time data from serial port, built with Qt
 * [PlotJuggler](https://github.com/facontidavide/PlotJuggler): affichage de données, intégration avec ROS
+* [extension Teleplot pour VSCode](https://marketplace.visualstudio.com/items?itemName=alexnesnes.teleplot): par @nesnes. Plots telemetry sent over Serial or UDP Packets.
 
 Terminaux:
 * [ScriptCommunicator](https://github.com/szieke/ScriptCommunicator_serial-terminal): Terminal multiplateforme scriptable pour port série, UDP/TCP, SPI, I2C et CAN
@@ -454,12 +456,12 @@ Batteries, chargeurs, moteurs, servos, roues, ...
 
 ## 5.2 Mécanique
 
-Profilés, bruts, roullements, glissières, ...
-* [Misumi](https://fr.misumi-ec.com/)
-* [Motedis](https://www.motedis.fr/): profilées aluminium
-* [MakerBeam](https://www.makerbeam.com/): profilées aluminium 1010
-* [Systeal](https://www.systeal.com/fr/): profilées aluminium
-* [Technic-Achat](https://www.technic-achat.com/): profilées aluminium
+Composants mécanique:
+* [Misumi](https://fr.misumi-ec.com/): composants mécanique configurables, visserie, bruts, ..
+* [Motedis](https://www.motedis.fr/): profilées aluminium 2020, bruts alu, ..
+* [MakerBeam](https://www.makerbeam.com/): profilées aluminium 1010, 1515, glissières, ..
+* [Systeal](https://www.systeal.com/fr/): profilées aluminium, ..
+* [Technic-Achat](https://www.technic-achat.com/): profilées aluminium 2020, ..
 * [123-Roulements](https://www.123roulement.com/)
 
 Plastiques:
@@ -470,8 +472,18 @@ Plastiques:
 
 ## 5.3 Electronique
 
+Composants électroniques:
+* [Mouser](https://www.mouser.fr/)
+* [Farnell](https://fr.farnell.com/)
+* [Digi-Key](https://www.digikey.fr/)
+* [TME](https://www.tme.eu/fr/)
+* [Arrow](https://www.arrow.com/fr-fr)
+* [rutronik24](https://www.rutronik24.com/)
+
+## 5.4 Mix électronique/mécanique
+
 Fabricants:
-* [Pololu](https://www.pololu.com/)
+* [Pololu](https://www.pololu.com/): contrôleur de moteurs dc/brushless/stepper, capteurs, cartes de dev, ...
 * [Sparkfun](https://www.sparkfun.com/)
 * [Adafruit](https://www.adafruit.com/)
 
@@ -485,16 +497,9 @@ Distributeurs:
 * [Distrelec](https://www.distrelec.fr/)
 * [Antratek](https://www.antratek.com/)
 * [Watterott](https://shop.watterott.com/)
+* [goBILDA](https://www.gobilda.com/)
 
-Composants électroniques:
-* [Mouser](https://www.mouser.fr/)
-* [Farnell](https://fr.farnell.com/)
-* [Digi-Key](https://www.digikey.fr/)
-* [TME](https://www.tme.eu/fr/)
-* [Arrow](https://www.arrow.com/fr-fr)
-* [rutronik24](https://www.rutronik24.com/)
-
-## 5.4 Circuit imprimé
+## 5.5 Circuit imprimé
 
 * [Aisler](https://aisler.net/)
 * [Eurocircuits](https://www.eurocircuits.com/)
@@ -504,7 +509,7 @@ Composants électroniques:
 * [JLCPCB](https://jlcpcb.com/)
 * Comparateur de prix: [PCBShopper](https://pcbshopper.com/)
 
-## 5.5 Usinage
+## 5.6 Usinage
 
 Découpe laser, impréssion 3D, fraisage, tournage, ...
 * [JohnSteel](https://www.john-steel.com/fr/)
@@ -513,7 +518,7 @@ Découpe laser, impréssion 3D, fraisage, tournage, ...
 * [Xmake](https://www.xmake.com/)
 * [Usinage boîtier](https://www.frontpanelexpress.com/)
 
-## 5.6 Visserie
+## 5.7 Visserie
 
 * [Bossard](https://eu.shop.bossard.com/fr/fr/)
 * [Cergy-Vis](https://www.cergy-vis.fr/)
