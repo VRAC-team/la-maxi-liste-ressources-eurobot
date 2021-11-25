@@ -463,6 +463,7 @@ Composants mécanique:
 * [Systeal](https://www.systeal.com/fr/): profilées aluminium, ..
 * [Technic-Achat](https://www.technic-achat.com/): profilées aluminium 2020, ..
 * [123-Roulements](https://www.123roulement.com/)
+* [QualiChutes](http://www.qualichutes.com/): chutes acier, aluminium, plastiques, ...
 
 Plastiques:
 * [Lacrylicshop](https://www.decoupe-plexi-sur-mesure.com/)
