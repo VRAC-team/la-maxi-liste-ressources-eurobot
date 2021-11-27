@@ -87,8 +87,8 @@ Vous pouvez contribuer à cette maxi liste:
   5.7 Visserie
 
 6. Logiciels de CAO
-  6.1 CAO mécanique
-  6.2 CAO électronique
+  6.1 CAO électronique
+  6.2 CAO mécanique
 
 7. Liens en vrac
 ```
@@ -532,7 +532,7 @@ Découpe laser, impréssion 3D, fraisage, tournage, ...
 ------------------------------------------------------------------------------------------
 # 6. Logiciels de CAO
 
-## 6.1 CAO mécanique
+## 6.1 CAO électronique
 
 * [KiCad](https://kicad-pcb.org/)
 * [Altium Designer](https://www.altium.com/altium-designer/)
@@ -545,7 +545,7 @@ Outils:
 * [PCB Panelizer & Gerber tool suite](http://blog.thisisnotrocketscience.nl/projects/pcb-panelizer/)
 * [PCB CheckList](https://github.com/azonenberg/pcb-checklist): Une checklist qui permet de vérifier si on à pas fait une erreur lors de la conception
 
-## 6.2 CAO électronique
+## 6.2 CAO mécanique
 
 * [Fusion 360](https://www.autodesk.com/products/fusion-360/overview)
 * [SolidWorks](https://www.solidworks.com/)
