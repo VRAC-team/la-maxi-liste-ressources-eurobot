@@ -54,7 +54,8 @@ Vous pouvez contribuer à cette maxi liste:
     3.2.2 STM32
     3.3.3 Teensy
     3.4.4 ESP32
-    3.4.5 Autres microcontrôleurs
+    3.4.5 PIC/dsPIC
+    3.4.6 Autres microcontrôleurs
   3.2 FPGA
   3.3 Ordinateur à carte unique
   3.4 Outils pour le développement
@@ -309,6 +310,29 @@ librairies:
 IDE:
 * [Arduino IDE](https://www.arduino.cc/en/software)
 * VSCode/Atom/CLion/Eclipse/SublimeText/Emacs/Vim + [extension PlatformIO](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
+
+### 3.4.5 PIC/dsPIC
+
+[Microchip](https://www.microchip.com/)
+[Cartes de développement](https://www.microchip.com/en-us/tools-resources/evaluation-boards)
+[Microcontroleurs](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors)
+On peut commander des sample gratuitement ici : [https://www.microchip.com/samples/](https://www.microchip.com/samples/)
+
+librairies:
+
+* [Code Examples](https://www.microchip.com/doclisting/CodeExamplesByFunc.aspx)
+
+IDE:
+
+* [MPLAB X](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+* [MPLAB Compiler](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
+
+### 3.4.6 Autres microcontrôleurs
+
+* [Cypress PSoC 5](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and), [Cypress PSoC 6](https://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-prototyping-kit-cy8cproto-063-ble)
+* [WEB - The amazing $1 microcontroller by Jay Carlson](https://jaycarlson.net/microcontrollers/)
+
+
 
 ### 3.4.5 Autres microcontrôleurs
 
@@ -567,7 +591,7 @@ Equipes Eurobot (non listés sur le portail des équipes PM-ROBOTIX):
 * [Roboterclub Aachen](https://www.roboterclub.rwth-aachen.de/)
 
 Electronique:
-* [WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html): conception de filtres, architecture d'arbres d'horloges, .. 
+* [WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html): conception de filtres, architecture d'arbres d'horloges, ..
 * [LS7366R 32-bit quadrature counter with serial interface](https://lsicsi.com/datasheets/LS7366R.pdf)
 * [Texas Instrument LM628/LM629](http://www.ti.com/lit/ds/symlink/lm629.pdf): CI dédié l'asservissement d'un moteur, commande en position/vitesse/accélération
 
