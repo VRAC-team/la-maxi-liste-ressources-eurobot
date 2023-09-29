@@ -254,6 +254,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 * [GRUM](https://gitlab.com/grumoncton)
 * [Les Karibous](https://github.com/LesKaribous)
 * [Microb Technology](https://github.com/onitake/aversive)
+* [Poivron Robotique](https://git.poivron-robotique.fr/Keuronde)
 * [UTCoupe](https://github.com/utcoupe)
 
 
@@ -310,7 +311,13 @@ IDE:
 * [Arduino IDE](https://www.arduino.cc/en/software)
 * VSCode/Atom/CLion/Eclipse/SublimeText/Emacs/Vim + [extension PlatformIO](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 
-### 3.4.5 Autres microcontrôleurs
+### 3.4.5 Raspberry Pi Pico
+* [Les documents important](https://poivron-robotique.fr/Rpi-Pico-La-documentation.html)
+* [Installer le compilateur sous Debian 11](https://poivron-robotique.fr/Rpi-Pico-Installer-l-environnement-de-developpement-sur-Debian-11.html)
+* [Créer son projet](https://poivron-robotique.fr/Rpi-Pico-Creer-son-projet-Raspberry-Pi-Pico.html)
+* [S'installer confortablement avec VS Code](https://poivron-robotique.fr/Raspberry-Pi-Pico-S-installer-avec-VS-Code.html)
+
+### 3.4.6 Autres microcontrôleurs
 
 * [Cypress PSoC 5](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and), [Cypress PSoC 6](https://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-prototyping-kit-cy8cproto-063-ble)
 * [WEB - The amazing $1 microcontroller by Jay Carlson](https://jaycarlson.net/microcontrollers/)
@@ -351,6 +358,7 @@ Terminaux:
 
 * [Maxon Motor](https://www.maxongroup.com/)
 * [Faulhaber](https://www.faulhaber.com/)
+* [MFA Comodrills](https://www.mfacomodrills.com/price_lists.html) Pas dans la même gamme que ceux du dessus, mais plus abordables. Commande par email.
 
 ### 4.1.2 Moteurs brushless
 
@@ -385,6 +393,7 @@ Servomoteurs intelligents:
 * [encodeur rotatif à effet Hall AMS](https://ams.com/angle-position-on-axis)
 * [encodeur rotatif capacitifs CUI](https://www.cuidevices.com/catalog/motion/rotary-encoders/incremental/modular)
 * [encodeur rotatif optique Kubler](https://www.kuebler.com/fr/produits/mesure/codeurs/product-finder)
+* [encodeur rotatif optique Broadcom](https://www.broadcom.com/products/motion-control-encoders) - par exemple, HEDR-5421-EP111 à monter à l'arrière des moteurs
 * [encodeur rotatif inductif POSIC](https://www.posic.com/EN/products/rotary-encoders.html)
 
 ## 4.5 Capteurs de distance
@@ -394,6 +403,7 @@ Servomoteurs intelligents:
 * [SICK](https://www.sick.com/fr/en/distance-sensors/ultrasonic-sensors/um18/c/g185679): UM18 utilisé à la coupe
 * [Baumer](https://www.baumer.com/de/en/product-overview/distance-measurement/ultrasonic-distance-sensors/c/290): UNAM, UNDK utilisé à la coupe
 * [Pepperl+Fuchs](https://www.pepperl-fuchs.com/global/en/classid_186.htm)
+* [SFR05](https://www.robot-electronics.co.uk/products/sensors/ultrasonics/srf05.html) utilisé à la coupe
 
 ### 4.5.2 Télemètres laser
 
