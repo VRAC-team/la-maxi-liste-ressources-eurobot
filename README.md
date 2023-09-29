@@ -31,7 +31,7 @@ Vous pouvez contribuer à cette maxi liste:
 1. Introduction
   1.1 Prérequis
   1.2 Première participation à la coupe
-  1.3 Glossaire
+  1.3 Glossairenstaller le compilateur sous Debian
 
 2. Ressources académiques spécifiques à Eurobot
     2.1 Pour bien commencer
@@ -54,7 +54,8 @@ Vous pouvez contribuer à cette maxi liste:
     3.2.2 STM32
     3.3.3 Teensy
     3.4.4 ESP32
-    3.4.5 Autres microcontrôleurs
+    3.4.5 PIC/dsPIC
+    3.4.6 Autres microcontrôleurs
   3.2 FPGA
   3.3 Ordinateur à carte unique
   3.4 Outils pour le développement
@@ -115,7 +116,7 @@ Il n'y a pas de cours pour débutant ici, ce sont des ressources faciles à trou
 Le conseil le plus important qu'on peut donner à une équipe qui se lance est qu'il faut en priorité avoir une base roulante fiable. C'est vraiment la fondation des robots, sans ça c'est vraiment difficile de faire des actionneurs qui peuvent marquer des points.
 La motorisation la plus simple à mettre en place est très surement un robot à roues différentielles avec des moteurs pas-à-pas, elle est très rapide à mettre en place car elle peut fonctionner sans asservissement ni d'odométrie.
 
-Le second conseil est qu'il vaut mieux avoir un seul robot bien terminé et bien rôdé plutôt que 2 robots finis trop tardivement.
+Le second conseil est qu'il vaut mieux avoir un seul robot bien terminé et bien rôdé plutôt que 2 robots finis trop tardivement.nstaller le compilateur sous Debian
 On peut également faire cette remarque avec un seul actionneur simple et répétable, à la place d'un système trop complexe et qui sera difficile à mettre au point.
 
 Le temps est souvent la plus grosse contrainte qui rencontrent les équipes. Assembler son robot quelques jours avant la coupe ne permettera pas de les finaliser correctement, il faut prévoir au moins un bon mois de test.
@@ -311,7 +312,25 @@ IDE:
 * [Arduino IDE](https://www.arduino.cc/en/software)
 * VSCode/Atom/CLion/Eclipse/SublimeText/Emacs/Vim + [extension PlatformIO](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 
+
+### 3.4.5 PIC/dsPIC
+
+[Microchip](https://www.microchip.com/)
+[Cartes de développement](https://www.microchip.com/en-us/tools-resources/evaluation-boards)
+[Microcontroleurs](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors)
+On peut commander des sample gratuitement ici : [https://www.microchip.com/samples/](https://www.microchip.com/samples/)
+
+librairies:
+
+* [Code Examples](https://www.microchip.com/doclisting/CodeExamplesByFunc.aspx)
+
+IDE:
+
+* [MPLAB X](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+* [MPLAB Compiler](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
+
 ### 3.4.5 Raspberry Pi Pico
+
 * [Les documents important](https://poivron-robotique.fr/Rpi-Pico-La-documentation.html)
 * [Installer le compilateur sous Debian 11](https://poivron-robotique.fr/Rpi-Pico-Installer-l-environnement-de-developpement-sur-Debian-11.html)
 * [Créer son projet](https://poivron-robotique.fr/Rpi-Pico-Creer-son-projet-Raspberry-Pi-Pico.html)
@@ -577,7 +596,7 @@ Equipes Eurobot (non listés sur le portail des équipes PM-ROBOTIX):
 * [Roboterclub Aachen](https://www.roboterclub.rwth-aachen.de/)
 
 Electronique:
-* [WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html): conception de filtres, architecture d'arbres d'horloges, .. 
+* [WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html): conception de filtres, architecture d'arbres d'horloges, ..
 * [LS7366R 32-bit quadrature counter with serial interface](https://lsicsi.com/datasheets/LS7366R.pdf)
 * [Texas Instrument LM628/LM629](http://www.ti.com/lit/ds/symlink/lm629.pdf): CI dédié l'asservissement d'un moteur, commande en position/vitesse/accélération
 
