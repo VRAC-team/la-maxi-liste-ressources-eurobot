@@ -1,17 +1,9 @@
 La maxi liste des ressources pour faire (un bon) robot à Eurobot
 ==========================================================================================
 
-Ce repo est destiné à compiler et partager les ressources (cours/vidéos/composants/discussions/liens) en lien avec la compétition Eurobot. Les cours, en PDF de préférence, sont sauvegardés sur le repo afin d'assurer leur longévité.
+Ce repo est destiné à compiler et partager les ressources (cours/vidéos/composants/discussions/liens) en lien avec la compétition [Eurobot](https://www.eurobot.org/). Les cours, en PDF de préférence, sont sauvegardés sur le repo afin d'assurer leur longévité.
 
 Les ressources trop générales qui sont faciles à trouver sur le net (cours pour débutant en programmation, etc) n'ont pas grand intérêt à être ici, on essaye de se concentrer sur des choses très concrètes pour Eurobot.
-
-Voici les comités d'organisation nationaux:
-* [Eurobot](https://www.eurobot.org/)
-* [Coupe de France de Robotique](https://www.coupederobotique.fr/)
-* [Eurobot Suisse](https://www.robot-ch.org/swisseurobot/)
-* [Robotix's Belgique](https://sparkoh.be/projet-robotixs/robotixs/)
-* [Eurobot Russie](https://eurobot-russia.org/)
-* [Algérie, Allemagne, Roumanie, Serbie, Espagne, Tunisie, Royaume-Uni](https://www.eurobot.org/contacts/) (Ces pays ne semblent pas avoir de sites web à jour)
 
 Vous pouvez contribuer à cette maxi liste:
 
@@ -24,107 +16,87 @@ Vous pouvez contribuer à cette maxi liste:
 
 
 
+
 ------------------------------------------------------------------------------------------
 # Sommaire
 
-```
-1. Introduction
-  1.1 Prérequis
-  1.2 Première participation à la coupe
-  1.3 Glossairenstaller le compilateur sous Debian
+- [Sommaire](#sommaire)
+- [1. Introduction](#1-introduction)
+   * [1.1 Prérequis](#11-prérequis)
+   * [1.2 Conseils pour une première participation à la coupe](#12-conseils-pour-une-première-participation-à-la-coupe)
+   * [1.3 Glossaire](#13-glossaire)
+- [2. Ressources spécifiques à Eurobot](#2-ressources-spécifiques-à-eurobot)
+   * [2.1 Pour bien commencer](#21-pour-bien-commencer)
+   * [2.2 Odométrie](#22-odométrie)
+   * [2.3 Roues](#23-roues)
+   * [2.4 Moteurs](#24-moteurs)
+   * [2.5 Asservissement](#25-asservissement)
+   * [2.6 Robot holonome](#26-robot-holonome)
+   * [2.7 Balises](#27-balises)
+   * [2.8 Batteries](#28-batteries)
+   * [2.9 Simulation](#29-simulation)
+   * [2.10 Planificateur de trajectoire et évitement](#210-planificateur-de-trajectoire-et-évitement)
+   * [2.11 Intelligence artificielle](#211-intelligence-artificielle)
+   * [2.12 Communication sans-fil](#212-communication-sans-fil)
+   * [2.13 Architecture des robots](#213-architecture-des-robots)
+   * [2.14 Table et les elements de jeu](#214-table-et-les-elements-de-jeu)
+- [3. Microcontrôleurs, ordinateur à carte unique, IDE](#3-microcontrôleurs-ordinateur-à-carte-unique-ide)
+   * [3.1 Microcontrôleurs](#31-microcontrôleurs)
+   * [3.2 FPGA](#32-fpga)
+   * [3.3 Ordinateur à carte unique](#33-ordinateur-à-carte-unique)
+   * [3.4 Outils pour le développement](#34-outils-pour-le-développement)
+- [4. Logiciels de CAO](#4-logiciels-de-cao)
+   * [4.1 CAO électronique](#41-cao-électronique)
+   * [4.2 CAO mécanique](#42-cao-mécanique)
+- [5. Actionneurs, capteurs, connectique](#5-actionneurs-capteurs-connectique)
+   * [5.1 Moteurs et controleurs](#51-moteurs-et-controleurs)
+   * [5.2 Roues](#52-roues)
+   * [5.3 Encodeurs](#53-encodeurs)
+   * [5.4 Capteurs de distance](#54-capteurs-de-distance)
+   * [5.5 Ventouses, pompes à vide, tubes](#55-ventouses-pompes-à-vide-tubes)
+   * [5.6 Camera pour traitement vidéo](#56-camera-pour-traitement-vidéo)
+   * [5.7 Connectique et câblage](#57-connectique-et-câblage)
+- [6. Sites internet marchands et services](#6-sites-internet-marchands-et-services)
+   * [6.1 Mécanique](#61-mécanique)
+   * [6.2 Electronique](#62-electronique)
+   * [6.3 Mix électronique/mécanique](#63-mix-électroniquemécanique)
+   * [6.4 Circuit imprimé](#64-circuit-imprimé)
+   * [6.5 Modélisme](#65-modélisme)
+   * [6.6 Usinage](#66-usinage)
+   * [6.7 Visserie](#67-visserie)
+- [7. Liens](#7-liens)
+   * [7.1 Code source des équipes](#71-code-source-des-équipes)
+   * [7.2 Chaines youtube des équipes](#72-chaines-youtube-des-équipes)
+   * [7.3 Divers](#73-divers)
 
-2. Ressources académiques spécifiques à Eurobot
-    2.1 Pour bien commencer
-    2.2 Base roulante
-        2.2.1 Odométrie
-        2.2.2 Roues
-        2.2.3 Moteurs
-    2.3 Asservissement
-    2.4 Balises
-    2.5 Simulation
-    2.6 Planificateur de trajectoire et évitement
-    2.7 Intelligence artificielle
-    2.8 Communication sans-fil
-    2.9 Architecture des robots
-    2.10 Code source des équipes
-
-3. Microcontrôleurs, ordinateur à carte unique, IDE et outils
-  3.1 Microcontrôleurs
-    3.1.1 Arduino
-    3.2.2 STM32
-    3.3.3 Teensy
-    3.4.4 ESP32
-    3.4.5 PIC/dsPIC
-    3.4.6 Autres microcontrôleurs
-  3.2 FPGA
-  3.3 Ordinateur à carte unique
-  3.4 Outils pour le développement
-
-4. Actionneurs, capteurs, connectique
-    4.1 Moteurs et controleurs
-        4.1.1 Moteurs à courant continu
-        4.1.2 Moteurs brushless
-        4.1.3 Moteurs pas-à-pas
-        4.1.4 Servomoteurs
-    4.2 Roues
-    4.4 Encodeurs
-    4.5 Capteurs de distance
-      4.5.1 Capteurs de distance à ultrasons
-      4.5.2 Télemètres laser
-      4.5.3 Capteurs temps de vol
-      4.5.4 Capteurs photoélectriques
-      4.5.5 LiDAR
-    4.6 Ventouses, pompes à vide, tubes
-    4.7 Camera pour traitement vidéo
-    4.8 Connectique et câblage
-
-5. Sites internet marchands et services
-  5.1 Modélisme
-  5.2 Mécanique
-  5.3 Electronique
-  5.4 Mix électronique/mécanique
-  5.5 Circuit imprimé
-  5.6 Usinage
-  5.7 Visserie
-
-6. Logiciels de CAO
-  6.1 CAO électronique
-  6.2 CAO mécanique
-
-7. Liens en vrac
-```
 
 
 
 ------------------------------------------------------------------------------------------
 # 1. Introduction
 
-Avant de commencer dans le vif du sujet, n'hésitez pas à rejoindre le discord qui est ouvert pour tous les participants de la coupe: [Eurobot - CDR](https://discord.gg/tteC3Cp).
+Avant de commencer dans le vif du sujet, n'hésitez pas à **rejoindre le discord** qui est ouvert pour tous les participants de la coupe: [Eurobot - CDR](https://discord.gg/tteC3Cp).
 Beaucoup d'équipes sont là pour papoter robotique, vous donner des conseils, partager leurs dernière trouvailles mais aussi pour s'amuser sur des jeux.
-
-Le [Forum Planete Science](https://www.planete-sciences.org/forums/) n'est plus très actif depuis l'ère Discord, cependant il est toujours utilisé pour poser des questions directement aux arbitres et pour partager des "comptes rendu" d'une saison par les équipes.
 
 ## 1.1 Prérequis
 
-Si c'est votre première participation à la coupe et que vous arrivez ici, ne vous inquietez pas au vu de la longueur de ce document, il n'y a pas besoin de tout lire pour commencer à faire des robots ^^
+Si c'est votre première participation à la coupe et que vous arrivez ici, ne vous inquietez pas au vu de la longueur de ce document, il n'y a pas besoin de connaître par coeur la moindre référence listé ici ^^
 
-On part du principe que vous avez au moins les bases en électronique et en programmation.
+On part du principe que vous avez au moins les bases en électronique et/ou en programmation.
 Il n'y a pas de cours pour débutant ici, ce sont des ressources faciles à trouver sur le net.
 
-## 1.2 Première participation à la coupe
+## 1.2 Conseils pour une première participation à la coupe
 
-Le conseil le plus important qu'on peut donner à une équipe qui se lance est qu'il faut en priorité avoir une base roulante fiable. C'est vraiment la fondation des robots, sans ça c'est vraiment difficile de faire des actionneurs qui peuvent marquer des points.
-La motorisation la plus simple à mettre en place est très surement un robot à roues différentielles avec des moteurs pas-à-pas, elle est très rapide à mettre en place car elle peut fonctionner sans asservissement ni d'odométrie.
+Les 3 conseils les plus importants du VRAC:
+- **avoir une base roulante fiable** qui permet un positionnement correct du robot (à environ 1cm près). Une base différentielle avec 2 moteurs pas a pas est le moyen le plus simple d'avoir [une bonne base roulante](https://www.youtube.com/watch?v=xO8gWP-WfIA), il n'y a même pas besoin d'odométrie ni d'aservissement!
+- étudier le règlement pour faire juste 2-3 actions facile avec un actionneur simple mais qui rapportent des points à coup sur. Cela permet **d'éliminer les actions trop complexes** qui sont plus destinée aux équipes confirmés qui ont de l'expérience.
+- **terminer le robot au MINIMUM 1 mois avant la compétition!**. Cette dernière phase qu'on peut penser courte va en fait réveler pleins d'imprévus/soucis qu'il faut corriger, dans l'idéal c'est plus 2-3 mois qu'il faut pour bien finaliser le projet.
 
-Le second conseil est qu'il vaut mieux avoir un seul robot bien terminé et bien rôdé plutôt que 2 robots finis trop tardivement.nstaller le compilateur sous Debian
-On peut également faire cette remarque avec un seul actionneur simple et répétable, à la place d'un système trop complexe et qui sera difficile à mettre au point.
+[Les dix commandements version OMyBot](https://twitter.com/TeamOmybot/status/1128554678101467136) est une version plus concrète avec des conseils spécifiques pour la coupe.
 
-Le temps est souvent la plus grosse contrainte qui rencontrent les équipes. Assembler son robot quelques jours avant la coupe ne permettera pas de les finaliser correctement, il faut prévoir au moins un bon mois de test.
-
-[Les dix commandements version Omybot](https://twitter.com/TeamOmybot/status/1128554678101467136) est une version plus concrète qui s'applique surtout lors de la coupe.
-
-Enfin le dernier conseil c'est de regarder ce que font les autres équipes, c'est motivant et sa peut donner de nouvelles idées:
-* [Chaine Youtube Planete Science](https://www.youtube.com/c/PlaneteSciencesNational/videos): on y trouve tout les matchs de la coupe de France
+N'hésitez pas à chercher/regarder ce qu'on fait les les autres équipes les années précédents, c'est motivant et ça peut donner de nouvelles idées d'actionneurs/stratégies:
+* Les matchs de la Coupe de France: [Chaine Youtube Planete Science](https://www.youtube.com/@PlaneteSciencesNational/streams): 
+* Les matchs de la Coupe de Belgique Robotix's: [Chaine Youtube SPARKOH!](https://www.youtube.com/@sparkoh93/streams)
 * [Portail des sites web des équipes par PM-ROBOTIX](https://www.pm-robotix.eu/sites-de-la-coupe-et-des-equipes/)
 
 ## 1.3 Glossaire
@@ -139,14 +111,26 @@ Enfin le dernier conseil c'est de regarder ce que font les autres équipes, c'es
 
 **Roue holonome**: Roue constituée de galets répartis sur sa périphérie, elles peuvent donc se déplacer dans toutes les directions.
 
-**Roues codeuses / Roues odométriques**: Roues souvent monté sur un pivot ou une glissière afin de toujours maintenir un contact avec le sol. Ces roues sont équipées d'encodeurs qui permettent une mesure de rotation pour le calcul de l'odométrie.
+**Roues codeuses / odométrie**: Roues souvent monté sur un pivot ou une glissière afin de toujours maintenir un contact avec le sol. Ces roues sont équipées d'encodeurs qui permettent une mesure de rotation pour le calcul de l'odométrie.
+
 
 
 
 ------------------------------------------------------------------------------------------
-# 2. Ressources académiques spécifiques à Eurobot
+# 2. Ressources spécifiques à Eurobot
 
 ## 2.1 Pour bien commencer
+
+**Tutos Robot en Carton**
+
+> Comment on peut facilement fabriquer un robot pour participé la coupe et évidement bien s'amuser en créant des robots ^^
+> 
+> 1. [Comment faire un robot pour la coupe de France de Robotique](https://www.youtube.com/watch?v=VxQH7iL4wfw)
+> 2. [La base roulante différentielle](https://www.youtube.com/watch?v=6YXxZ1odnGI)
+> 3. [L'asservissement 1/2](https://www.youtube.com/watch?v=uEfZ-wJkynY)
+> 4. [L'asservissement 2/2](https://www.youtube.com/watch?v=40OEUTVVAqI)
+
+[Code source sut GitHub](https://github.com/RobotEnCarton/tutoRobot)
 
 **RCVA: Réflexions sur un robot Eurobot en 9 chapitres**
 
@@ -178,9 +162,7 @@ Enfin le dernier conseil c'est de regarder ce que font les autres équipes, c'es
 >
 > [EXCEL - Génération de profile trapézoidal de vitesse](asservissement/Cubot-profil_de_vitesse.xlsx)
 
-## 2.2 Base roulante
-
-### 2.2.1 Odométrie
+## 2.2 Odométrie
 
 * [WEB - CVRA - Odometry calibration](https://cvra.ch/robot-software/howto/calibrate-odometry/)
 * [VIDEO - Robotic-System - Calibrage de l'odométrie](https://www.youtube.com/watch?v=X5PMFvVecXU)
@@ -190,21 +172,23 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 * [VIDEO - RCVA - comparaison approximation linéaire/circulaire, correction centrifuge](https://www.youtube.com/watch?v=KQzfMAJyvB0)
 * [VIDEO - RCVA - odométrie](https://www.youtube.com/watch?v=557l7JOs35E)
 
-### 2.2.2 Roues
+## 2.3 Roues
 
 * [**WEB - Erich Styger - Making Perfect Sticky DIY Sumo Robot Tires**](https://mcuoneclipse.com/2017/12/28/making-perfect-sticky-diy-sumo-robot-tires/)
 * [FORUM - Robotech Legends - Moulage de pneus en polyuréthane](https://www.planete-sciences.org/forums/viewtopic.php?t=18632)
 * [VIDEO - Barbatronic - Moulage de pneus en silicone](https://www.youtube.com/watch?v=EGPVa1ZnXe8)
 * [VIDEO - Micro Technology - test d'adhérence des roues](https://www.youtube.com/watch?v=cPfP7zyS0kU)
 
-### 2.2.3 Moteurs
+## 2.4 Moteurs
 
 * [**WEB - RobotShop - Outil de Dimensionnement d'un moteur d'entrainement**](https://www.robotshop.com/community/blog/show/dimensionnement-dun-moteur-dentranement)
 * [PDF - ANCR - Dimensionner ses moteurs](moteurs/ANCR-Dimensionner_ses_moteurs.pdf)
 * [PDF - TechTheTroll - Dimensionnement des moteurs de propulsion](https://techthetroll.files.wordpress.com/2016/06/techthetroll-dimensionnement-des-moteurs-de-propulsion.pdf)
 
-## 2.3 Asservissement
+## 2.5 Asservissement
 
+* [WEB - PM Robotix - Asservissement et pilotage de robot autonome]([https://www.pm-robotix.eu/2022/01/19/ameliorer-vos-regulateurs-pid/](https://www.pm-robotix.eu/2022/02/02/asservissement-et-pilotage-de-robot-autonome/))
+* [WEB - PM Robotix - Améliorer vos régulateurs PID](https://www.pm-robotix.eu/2022/01/19/ameliorer-vos-regulateurs-pid/)
 * [PDF - totofweb - Le PID utilisé en régulation de position et/ou de vitesse de moteurs électriques](asservissement/totofweb-PID_régulation_de_position_vitesse.pdf)
 * [PDF - Microb Technology - Documentation de l'asservissement, librairie Aversive, évitement](asservissement/MicrobTechnology-wiki_asservissement_lib_aversive.pdf)
 * [PDF - RCVA - Asservissement du robot à une trajectoire](http://www.rcva.fr/wp-content/uploads/2016/12/asservissement.pdf)
@@ -214,7 +198,13 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 * [PDF - TechTheTroll - Les trajectoires courbes dans la bonne humeur: de l’asservissement à la planification](https://techthetroll.files.wordpress.com/2016/07/trajectoire_courbe.pdf)
 * [WEB - Implémenter un PID sans faire de calculs ! - Ferdinand Piette](http://www.ferdinandpiette.com/blog/2011/08/implementer-un-pid-sans-faire-de-calculs/)
 
-## 2.4 Balises
+## 2.6 Robot holonome
+
+* [WEB - Poivron Robotique - localisation (partie 1 - faisabilité)](http://poivron-robotique.fr/Robot-holonome-localisation-partie-1.html)
+* [WEB - Poivron Robotique - localisation (partie 2 - les équations)](http://poivron-robotique.fr/Robot-holonome-localisation-partie-2-les-equations.html)
+* [WEB - Poivron Robotique - lois de commande](http://poivron-robotique.fr/Robot-holonome-lois-de-commande.html)
+
+## 2.7 Balises
 
 * [PDF - totofweb - Balise infrarouge](balise/totofweb-balises_IR.pdf)
 * [WEB - Barbatronic - Reflective lidar for robotic and the eurobot competition](http://fabacademy.org/2019/labs/lamachinerie/students/adrien-bracq/projects/final-project/)
@@ -223,45 +213,41 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 * [PDF - Microb Technology - Faire des balises laser en buvant des bières](balise/MicrobTechnology-Faire_des_balises_laser_en_buvant_des_bieres.pdf)
 * [VIDEO - ESEO - localisation par balises infrarouges](https://www.youtube.com/watch?v=bGoXEwQ0UQs)
 
-## 2.5 Simulation
+## 2.8 Batteries
+
+* [WEB - L’astuce batterie de PM-ROBOTIX](https://www.pm-robotix.eu/2019/07/10/lastuce-batterie-de-pm-robotix/)
+
+## 2.9 Simulation
 
 * [VIDEO - ESEO - simulateur de match](https://www.youtube.com/watch?v=fo-87AF2Fr4), [article sur leur site](https://robot-eseo.fr/strategie-du-robot-sur-simulateur/)
 
-## 2.6 Planificateur de trajectoire et évitement
+## 2.10 Planificateur de trajectoire et évitement
 
 * [LIBRAIRIE- The Kraken Pathfinding - A tentacle-based pathfinding library for nonholonomic robotic vehicles](https://github.com/kraken-robotics/The-Kraken-Pathfinding)
 * [LIBRAIRIE - PythonRobotics: Python sample codes for robotics algorithms](https://atsushisakai.github.io/PythonRobotics/)
 
-## 2.7 Intelligence artificielle
+## 2.11 Intelligence artificielle
 
 * [VIDEO - @nesnes - Coder une IA pour Eurobot](https://www.youtube.com/channel/UCg1vR097bAzmJzeMBWl7Zzw), [depot GitHub Eurobot-AI](https://github.com/nesnes/Eurobot-AI)
 
-## 2.8 Communication sans-fil
+## 2.12 Communication sans-fil
 
 * [FORUM - Pourquoi éviter le WiFi 2.4GHz](https://www.planete-sciences.org/forums/viewtopic.php?f=97&t=16969)
 
-## 2.9 Architecture des robots
+## 2.13 Architecture des robots
 
 * [WEB - Robotech Legends 2019](https://twitter.com/robotech34/status/1129147494859005952)
 * [Librarie diagrams.net par @kmikaz51](https://drive.google.com/file/d/1W76g7xKKJeluGIWmfG8v30gIhi9cbWxQ/view?usp=sharing) pour déssiner votre propre architecture.
 
-## 2.10 Code source des équipes
+## 2.14 Table et les elements de jeu
 
-* [APB Team](http://git.ni.fr.eu.org/apbteam.git/tree/)
-* [ARIG](https://github.com/ARIG-Robotique)
-* [CVRA](https://github.com/cvra)
-* [ESEO](https://github.com/ClubRobotEseo)
-* [EsialRobotik](https://github.com/EsialRobotik)
-* [GRUM](https://gitlab.com/grumoncton)
-* [Les Karibous](https://github.com/LesKaribous)
-* [Microb Technology](https://github.com/onitake/aversive)
-* [Poivron Robotique](https://git.poivron-robotique.fr/Keuronde)
-* [UTCoupe](https://github.com/utcoupe)
+* [WEB - PM Robotix - Conseils pour la pose du vinyle](https://www.pm-robotix.eu/2019/12/07/conseils-pour-la-pose-du-vinyle/)
+
 
 
 
 ------------------------------------------------------------------------------------------
-# 3. Microcontrôleurs, ordinateur à carte unique et leurs IDE
+# 3. Microcontrôleurs, ordinateur à carte unique, IDE
 
 ## 3.1 Microcontrôleurs
 
@@ -270,73 +256,76 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 [Arduino](https://www.arduino.cc/)
 
 IDE:
+* VSCode/Atom/CLion/Eclipse/SublimeText/Emacs/Vim + [extension **PlatformIO**](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 * [Arduino IDE](https://www.arduino.cc/en/software)
 * [Visual Studio Code](https://code.visualstudio.com/) + [extension Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
-* VSCode/Atom/CLion/Eclipse/SublimeText/Emacs/Vim + [extension PlatformIO](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 
-### 3.2.2 STM32
+### 3.1.2 STM32
 
 * [STM32](https://www.st.com/en/evaluation-tools/stm32-mcu-mpu-eval-tools.html)
 * [Cartes de développement Nucleo](https://www.st.com/en/evaluation-tools/stm32-nucleo-boards.html)
 
-Librairies:
+Frameworks/RTOS:
 * [LL, HAL, CMSIS](https://www.st.com/en/embedded-software/stm32cube-mcu-mpu-packages.html#products)
-* [Mbed OS](https://os.mbed.com/code/): open-source operating system for platforms using Arm microcontrollers
 * [Arduino core for STM32](https://github.com/stm32duino/Arduino_Core_STM32)
+* [Mbed OS](https://os.mbed.com/code/): open-source operating system for platforms using Arm microcontrollers
 * [libopencm3](https://github.com/libopencm3/libopencm3): open-source firmware library for various ARM Cortex-M microcontrollers
 * [ChibiOS](https://github.com/ChibiOS/ChibiOS): complete development environment for embedded applications including RTOS, an HAL, peripheral drivers, support files and tools.
+* [Luos]([https://github.com/Luos-io/luos_engine](https://www.luos.io/)) Open-source and real-time orchestrator for cyber-physical-systems, to easily design, test and deploy embedded applications and digital twins. 
+* [modm](https://github.com/modm-io/modm): a barebone embedded library generator, C++23 library generator for AVR and ARM Cortex-M devices 
+* [Zephyr](https://github.com/zephyrproject-rtos/zephyr): Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures. 
 
 IDE:
-* VSCode/Atom/CLion/Eclipse/SublimeText/Emacs/Vim + [extension PlatformIO](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
+* VSCode/Atom/CLion/Eclipse/SublimeText/Emacs/Vim + [extension **PlatformIO**](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
 * [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
-* [Mbed online compiler](https://os.mbed.com/): IDE en ligne, pas de débogueur, intègre un gestionnaire de version. Attention cependant à avoir une solution de secours lors de la coupe au cas où il serait en maintenance quelques heures
+* [Keil Studio Cloud](https://www.keil.arm.com/mbed/): a modern browser-based IDE for Mbed development with compilation, code completion, linting and browser debugging. Fully compatible with Mbed OS 5 and 6 and Mbed 2. Attention cependant à avoir une solution de secours lors de la coupe au cas où il serait en maintenance quelques heures
 * [Mbed Studio](https://os.mbed.com/studio/)
+* [Mbed CLI 2 (mbed-tools)](https://github.com/ARMmbed/mbed-tools), [install](https://os.mbed.com/docs/mbed-os/v6.16/build-tools/install-or-upgrade.html)
 
-### 3.3.3 Teensy
+### 3.1.3 Teensy
 
 [Teensy](https://www.pjrc.com/teensy/)
 
 IDE:
-* [Arduino IDE](https://www.arduino.cc/en/software) + [extension Teensyduino](https://www.pjrc.com/teensy/teensyduino.html)
 * VSCode/Atom/CLion/Eclipse/SublimeText/Emacs/Vim + [extension PlatformIO](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
+* [Arduino IDE](https://www.arduino.cc/en/software) + [extension Teensyduino](https://www.pjrc.com/teensy/teensyduino.html)
 
-### 3.4.4 ESP32
+### 3.1.4 ESP32
 
-[Cartes de développement ESPRESSIF](https://www.espressif.com/en/products/devkits)
+[Cartes de développement Espressif](https://www.espressif.com/en/products/devkits), [Modules Espressif](https://www.espressif.com/en/products/modules)
 
-librairies:
+Frameworks:
 * [Arduino core for ESP32](https://github.com/espressif/arduino-esp32)
-* [ESP-IDF](https://www.espressif.com/en/products/sdks/esp-idf)
+* [ESP-IDF](https://github.com/espressif/esp-idf): Official development framework for Espressif SoCs. 
 
 IDE:
-* [Arduino IDE](https://www.arduino.cc/en/software)
 * VSCode/Atom/CLion/Eclipse/SublimeText/Emacs/Vim + [extension PlatformIO](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)
+* [Arduino IDE](https://www.arduino.cc/en/software)
 
+### 3.1.5 Raspberry Pi Pico
 
-### 3.4.5 PIC/dsPIC
+[Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) Powerful, flexible microcontroller boards, available from $4
+[RP2040](https://www.raspberrypi.com/products/rp2040/) High performance. Low cost. Small package.
 
-[Microchip](https://www.microchip.com/)
-[Cartes de développement](https://www.microchip.com/en-us/tools-resources/evaluation-boards)
-[Microcontroleurs](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors)
-On peut commander des sample gratuitement ici : [https://www.microchip.com/samples/](https://www.microchip.com/samples/)
+* [WEB - Poivron Robotique - Les documents important](https://poivron-robotique.fr/Rpi-Pico-La-documentation.html)
+* [WEB - Poivron Robotique - Installer le compilateur sous Debian 11](https://poivron-robotique.fr/Rpi-Pico-Installer-l-environnement-de-developpement-sur-Debian-11.html)
+* [WEB - Poivron Robotique - Créer son projet](https://poivron-robotique.fr/Rpi-Pico-Creer-son-projet-Raspberry-Pi-Pico.html)
+* [WEB - Poivron Robotique - S'installer confortablement avec VS Code](https://poivron-robotique.fr/Raspberry-Pi-Pico-S-installer-avec-VS-Code.html)
+
+### 3.1.6 PIC/dsPIC
+
+* [Microchip](https://www.microchip.com/)
+* [Cartes de développement](https://www.microchip.com/en-us/tools-resources/evaluation-boards)
+* [Microcontroleurs](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors)
 
 librairies:
-
 * [Code Examples](https://www.microchip.com/doclisting/CodeExamplesByFunc.aspx)
 
 IDE:
-
 * [MPLAB X](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 * [MPLAB Compiler](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
 
-### 3.4.5 Raspberry Pi Pico
-
-* [Les documents important](https://poivron-robotique.fr/Rpi-Pico-La-documentation.html)
-* [Installer le compilateur sous Debian 11](https://poivron-robotique.fr/Rpi-Pico-Installer-l-environnement-de-developpement-sur-Debian-11.html)
-* [Créer son projet](https://poivron-robotique.fr/Rpi-Pico-Creer-son-projet-Raspberry-Pi-Pico.html)
-* [S'installer confortablement avec VS Code](https://poivron-robotique.fr/Raspberry-Pi-Pico-S-installer-avec-VS-Code.html)
-
-### 3.4.6 Autres microcontrôleurs
+### 3.1.7 Autres microcontrôleurs
 
 * [Cypress PSoC 5](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and), [Cypress PSoC 6](https://www.cypress.com/documentation/development-kitsboards/psoc-6-ble-prototyping-kit-cy8cproto-063-ble)
 * [WEB - The amazing $1 microcontroller by Jay Carlson](https://jaycarlson.net/microcontrollers/)
@@ -353,6 +342,10 @@ IDE:
 * [BeagleBone](https://beagleboard.org/)
 * [NVidia Jetson](https://www.nvidia.com/fr-fr/autonomous-machines/jetson-store/)
 * [LattePanda](https://www.lattepanda.com/)
+* [NanoPC & NanoPi](https://www.friendlyelec.com/index.php?route=product/category&path=69)
+* [OrangePi](http://www.orangepi.org/)
+
+[Board-DB](https://hackerboards.com/) The Single Board Computer Database: comparison website for any single-board computer (SBC), module (SoM) and Linux-supported development board. 
 
 ## 3.4 Outils pour le développement
 
@@ -369,17 +362,42 @@ Terminaux:
 
 
 ------------------------------------------------------------------------------------------
-# 4. Actionneurs, capteurs, connectique
+# 4. Logiciels de CAO
 
-## 4.1 Moteurs et controleurs
+## 4.1 CAO électronique
 
-### 4.1.1 Moteurs à courant continu
+* [KiCad](https://kicad-pcb.org/): Open Source Schematic Capture & PCB Design Software
+* [LibrePCB](https://librepcb.org/): LibrePCB is a free & open-source software.
+* [Horizon EDA](https://horizon-eda.org/): Open Source Electronic Design Automation package for printed circuit board design
+* [EasyEDA](https://easyeda.com/fr): Online PCB design & circuit simulator
+* [Altium Designer](https://www.altium.com/altium-designer/)
+* [Eagle](https://www.autodesk.fr/products/eagle/free-download)
+* [Alegro PCB Designer](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/pcb-layout/allegro-pcb-designer.html)
+
+Outils:
+* [PCB Panelizer & Gerber tool suite](http://blog.thisisnotrocketscience.nl/projects/pcb-panelizer/)
+* [PCB CheckList](https://github.com/azonenberg/pcb-checklist): Une checklist qui permet de vérifier si on à pas fait une erreur lors de la conception
+
+## 4.2 CAO mécanique
+
+* [Fusion 360](https://www.autodesk.com/products/fusion-360/overview)
+* [SolidWorks](https://www.solidworks.com/)
+* [FreeCAD](https://www.freecadweb.org/)
+* [OpenSCAD](http://www.openscad.org/): The Programmers Solid 3D CAD Modeller
+* [SolveSpace](http://solvespace.com/): parametric 2d/3d CAD
+
+
+------------------------------------------------------------------------------------------
+# 5. Actionneurs, capteurs, connectique
+
+## 5.1 Moteurs et controleurs
+
+### 5.1.1 Moteurs à courant continu
 
 * [Maxon Motor](https://www.maxongroup.com/)
 * [Faulhaber](https://www.faulhaber.com/)
-* [MFA Comodrills](https://www.mfacomodrills.com/price_lists.html) Pas dans la même gamme que ceux du dessus, mais plus abordables. Commande par email.
 
-### 4.1.2 Moteurs brushless
+### 5.1.2 Moteurs brushless
 
 Controleurs de moteurs brushless:
 * [SimpleFOC](https://simplefoc.com/): Arduino Compatible Open Source Field Oriented Control (FOC)
@@ -387,12 +405,12 @@ Controleurs de moteurs brushless:
 * [MJBOTS moteus](https://mjbots.com/products/moteus-r4-8)
 * [Flipsky ODESC](https://flipsky.net/collections/electronic-products/products/odesc3-6-optimization-of-high-performance-brushless-motor-high-power-driver-foc-bldc-based-on-odrive)
 
-### 4.1.3 Moteurs pas-à-pas
+### 5.1.3 Moteurs pas-à-pas
 
 * [OMC-StepperOnline](https://www.omc-stepperonline.com/)
 * [Trinamic](https://www.trinamic.com/)
 
-### 4.1.4 Servomoteurs
+### 5.1.4 Servomoteurs
 
 servomoteurs classiques:
 * [HITEC](https://hitecrcd.com/)
@@ -401,13 +419,13 @@ Servomoteurs intelligents:
 * [HerkuleX DRS-0101](http://hovis.co.kr/guide/main_eng.html)
 * [Dynamixel AX-12](http://www.robotis.us/ax-series/)
 
-## 4.2 Roues
+## 5.2 Roues
 
 * [JSumo](https://www.jsumo.com/wheels)
 * [Fingertech](https://www.fingertechrobotics.com/products.php?cat=Wheels+%26+Hubs)
 * [BaneBots](http://www.banebots.com/category/T40P.html)
 
-## 4.4 Encodeurs
+## 5.3 Encodeurs
 
 * [encodeur rotatif à effet Hall AMS](https://ams.com/angle-position-on-axis)
 * [encodeur rotatif capacitifs CUI](https://www.cuidevices.com/catalog/motion/rotary-encoders/incremental/modular)
@@ -415,30 +433,29 @@ Servomoteurs intelligents:
 * [encodeur rotatif optique Broadcom](https://www.broadcom.com/products/motion-control-encoders) - par exemple, HEDR-5421-EP111 à monter à l'arrière des moteurs
 * [encodeur rotatif inductif POSIC](https://www.posic.com/EN/products/rotary-encoders.html)
 
-## 4.5 Capteurs de distance
+## 5.4 Capteurs de distance
 
-### 4.5.1 Capteurs de distance à ultrasons
+### 5.4.1 Capteurs de distance à ultrasons
 
 * [SICK](https://www.sick.com/fr/en/distance-sensors/ultrasonic-sensors/um18/c/g185679): UM18 utilisé à la coupe
 * [Baumer](https://www.baumer.com/de/en/product-overview/distance-measurement/ultrasonic-distance-sensors/c/290): UNAM, UNDK utilisé à la coupe
 * [Pepperl+Fuchs](https://www.pepperl-fuchs.com/global/en/classid_186.htm)
-* [SFR05](https://www.robot-electronics.co.uk/products/sensors/ultrasonics/srf05.html) utilisé à la coupe
 
-### 4.5.2 Télemètres laser
+### 5.4.2 Télemètres laser
 
 * [SICK Dx35](https://www.sick.com/fr/en/distance-sensors/mid-range-distance-sensors/dx35/c/g261053)
 * [Baumer](https://www.baumer.com/de/en/product-overview/distance-measurement/laser-distance-sensors/c/289)
 
-## 4.5.3 Capteurs temps de vol
+### 5.4.3 Capteurs temps de vol
 
 [Capteurs ToF STMicroelectronics](https://www.st.com/en/imaging-and-photonics-solutions/proximity-sensors.html#products)
 
-### 4.5.4 Capteurs photoélectriques
+### 5.4.4 Capteurs photoélectriques
 
 * [SICK](https://www.sick.com/us/en/photoelectric-sensors/c/g172752?q=:Def_Type:Product)
 * [Pepperl+Fuchs](https://www.pepperl-fuchs.com/global/en/classid_8.htm)
 
-### 4.5.5 LiDAR
+### 5.4.5 LiDAR
 
 * [Slamtec RPLIDAR A2](https://www.slamtec.com/en/Lidar/A2): Utilisé par de nombreuses équipes à la coupe
 * [Pepperl+Fuchs](https://www.pepperl-fuchs.com/france/fr/R2000_Detection_laser_scanner.htm): R2000 utilisé à la coupe
@@ -447,7 +464,7 @@ Servomoteurs intelligents:
 * [SICK TiM5xx](https://www.sick.com/fr/fr/solutions-de-mesure-et-de-detection/capteurs-2d-lidar/tim5xx/c/g292754)
 * [Ydlidar X4](https://www.ydlidar.com/products/view/5.html)
 
-## 4.6 Ventouses, pompes à vide, tubes
+## 5.5 Ventouses, pompes à vide, tubes
 
 * [Coval](https://www.coval.fr/produits/)
 * [Piab](https://www.piab.com/fr-FR/Produits/ventouses/)
@@ -456,34 +473,23 @@ Servomoteurs intelligents:
 * [Thomas Gardner Denver](https://www.gardnerdenver.com/en-us/thomas/gas-pumps)
 * [SCHMALZ](https://www.schmalz.com/fr/technique-du-vide-pour-l-automation/composants-pour-le-vide)
 
-## 4.7 Camera pour traitement vidéo
+## 5.6 Camera pour traitement vidéo
 
 * [OpenMV](https://openmv.io/)
 * [JeVois](https://www.jevoisinc.com/)
 * [Pixy](https://pixycam.com/)
 * [Intel RealSense](https://www.intel.fr/content/www/fr/fr/architecture-and-technology/realsense-overview.html)
 
-## 4.8 Connectique et câblage
+## 5.7 Connectique et câblage
 
 * [Wurth Electronik](https://www.we-online.com/catalog/en/em/connectors/)
 * [TE](https://www.te.com/)
 * [Samtec](https://www.samtec.com/)
 
-
-
 ------------------------------------------------------------------------------------------
-# 5. Sites internet marchands et services
+# 6. Sites internet marchands et services
 
-## 5.1 Modélisme
-
-Batteries, chargeurs, moteurs, servos, roues, ...
-* [Miniplanes](https://www.miniplanes.fr/)
-* [HobbyKing](https://hobbyking.com/)
-* [mcmracing](https://www.mcmracing.com/)
-* [EuroRC](https://www.eurorc.com/)
-* [Roues Lynxmotion](https://www.robotshop.com/eu/fr/lynxmotion-roues.html)
-
-## 5.2 Mécanique
+## 6.1 Mécanique
 
 Composants mécanique:
 * [Misumi](https://fr.misumi-ec.com/): composants mécanique configurables, visserie, bruts, ..
@@ -500,7 +506,7 @@ Plastiques:
 * [SuperPlastic](https://www.superplastic.be/)
 * [Pyrasied](https://www.pyrasied.nl/)
 
-## 5.3 Electronique
+## 6.2 Electronique
 
 Composants électroniques:
 * [Mouser](https://www.mouser.fr/)
@@ -509,8 +515,9 @@ Composants électroniques:
 * [TME](https://www.tme.eu/fr/)
 * [Arrow](https://www.arrow.com/fr-fr)
 * [rutronik24](https://www.rutronik24.com/)
+* [LCSC](https://www.lcsc.com/)
 
-## 5.4 Mix électronique/mécanique
+## 6.3 Mix électronique/mécanique
 
 Fabricants:
 * [Pololu](https://www.pololu.com/): contrôleur de moteurs dc/brushless/stepper, capteurs, cartes de dev, ...
@@ -529,26 +536,36 @@ Distributeurs:
 * [Watterott](https://shop.watterott.com/)
 * [goBILDA](https://www.gobilda.com/)
 
-## 5.5 Circuit imprimé
+## 6.4 Circuit imprimé
 
-* [Aisler](https://aisler.net/)
-* [Eurocircuits](https://www.eurocircuits.com/)
-* [OSHPark](https://oshpark.com/)
+* [Aisler](https://aisler.net/): Made in Germany
+* [Eurocircuits](https://www.eurocircuits.com/) PCB prototypes & Small series, manufactured and assembled in Europe
+* [OSHPark](https://oshpark.com/) Made in the USA
+* [JLCPCB](https://jlcpcb.com/), [JLC PCB SMD Assembly Component Catalogue](https://yaqwsx.github.io/jlcparts/): Better parametric search for components available for JLC PCB assembly 
 * [PCBWay](https://www.pcbway.com/)
 * [Seeed Studio](https://www.seeedstudio.com/fusion_pcb.html)
-* [JLCPCB](https://jlcpcb.com/)
-* Comparateur de prix: [PCBShopper](https://pcbshopper.com/)
+* [PCBShopper](https://pcbshopper.com/) A price comparison site for PCB
 
-## 5.6 Usinage
+## 6.5 Modélisme
+
+Batteries, chargeurs, moteurs, servos, roues, ...
+* [Miniplanes](https://www.miniplanes.fr/)
+* [HobbyKing](https://hobbyking.com/)
+* [mcmracing](https://www.mcmracing.com/)
+* [EuroRC](https://www.eurorc.com/)
+* [Roues Lynxmotion](https://www.robotshop.com/eu/fr/lynxmotion-roues.html)
+
+## 6.6 Usinage
 
 Découpe laser, impréssion 3D, fraisage, tournage, ...
+* [Tolery - Fabrication en ligne de pièces métalliques sur-mesure](https://www.tolery.io/): découpe laser tôle/tube, usinage, pliage, thermolaquage, soudure
 * [JohnSteel](https://www.john-steel.com/fr/)
 * [Usineur.fr](https://www.usineur.fr/)
 * [Protolabs](https://www.protolabs.fr/)
 * [Xmake](https://www.xmake.com/)
 * [Usinage boîtier](https://www.frontpanelexpress.com/)
 
-## 5.7 Visserie
+## 6.7 Visserie
 
 * [Bossard](https://eu.shop.bossard.com/fr/fr/)
 * [Cergy-Vis](https://www.cergy-vis.fr/)
@@ -557,38 +574,61 @@ Découpe laser, impréssion 3D, fraisage, tournage, ...
 * [Technifix](http://www.technifix.be/)
 
 
-
 ------------------------------------------------------------------------------------------
-# 6. Logiciels de CAO
-
-## 6.1 CAO électronique
-
-* [KiCad](https://kicad-pcb.org/)
-* [Altium Designer](https://www.altium.com/altium-designer/)
-* [EasyEDA](https://easyeda.com/fr): Outil en ligne
-* [Eagle](https://www.autodesk.fr/products/eagle/free-download)
-* [LibrePCB](https://librepcb.org/)
-* [Alegro PCB Designer](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/pcb-layout/allegro-pcb-designer.html)
-
-Outils:
-* [PCB Panelizer & Gerber tool suite](http://blog.thisisnotrocketscience.nl/projects/pcb-panelizer/)
-* [PCB CheckList](https://github.com/azonenberg/pcb-checklist): Une checklist qui permet de vérifier si on à pas fait une erreur lors de la conception
-
-## 6.2 CAO mécanique
-
-* [Fusion 360](https://www.autodesk.com/products/fusion-360/overview)
-* [SolidWorks](https://www.solidworks.com/)
-* [FreeCAD](https://www.freecadweb.org/)
-* [OpenSCAD](http://www.openscad.org/): The Programmers Solid 3D CAD Modeller
-* [SolveSpace](http://solvespace.com/): parametric 2d/3d CAD
+# 7. Liens
 
 
+## 7.1 Code source des équipes
 
-------------------------------------------------------------------------------------------
-# 7. Liens en vrac
+* [APB Team](http://git.ni.fr.eu.org/apbteam.git/tree/)
+* [ARIG](https://github.com/ARIG-Robotique)
+* [CVRA](https://github.com/cvra)
+* [ESEO](https://github.com/ClubRobotEseo)
+* [EsialRobotik](https://github.com/EsialRobotik)
+* [GRUM](https://gitlab.com/grumoncton)
+* [Les Karibous](https://github.com/LesKaribous)
+* [Microb Technology](https://github.com/onitake/aversive)
+* [Poivron Robotique](https://git.poivron-robotique.fr/Keuronde)
+* [UTCoupe](https://github.com/utcoupe)
+
+## 7.2 Chaines youtube des équipes
+
+* [APB Team](https://www.youtube.com/@APBTeam/videos)
+* [Arig](https://www.youtube.com/@arigassociation3814/videos)
+* [CVRA](https://www.youtube.com/@CVRAMedia)
+* [ESEO](https://www.youtube.com/@RobotESEO/videos)
+* [ESIALRobotik](https://www.youtube.com/@associationesialrobotik6587/videos)
+* [Goldorak](https://www.youtube.com/@goldorak_r/videos)
+* [Les Karibous](https://www.youtube.com/@equipekaribous607/videos), [Barbatronic](https://www.youtube.com/@Barbatronic/videos), [Adrien Bracq](https://www.youtube.com/@nadarbreicq/videos)
+* [Microb Technology](https://www.youtube.com/@SgtKronenbourg/videos)
+* [RCVA](https://www.youtube.com/@rcva/videos), [jacques coulon](https://www.youtube.com/@jacquescoulon3516/videos)
+* [TURAG e.V.](https://www.youtube.com/@TURAGev/videos)
+* [VRAC](https://www.youtube.com/@vrac-robotique/videos), [monowii](https://www.youtube.com/@monowii/videos)
+
+
+## 7.3 Divers
+
+[Tables de jeux, vidéos, règlements de 1994 à aujourd'hui par PM-ROBOTIX](https://www.pm-robotix.eu/accueil/les-tables-de-jeux/)
+
+[Github cajt/list_of_robot_electronics](https://github.com/cajt/list_of_robot_electronics) A list of resources, projects and products useful for robot electronics (Motor drivers, Actuators, Battery Management, )
+
+Connecteurs/Sertissage:
+* [Common wire-to-board, wire-to-wire connectors, and crimp tools](http://www.mattmillman.com/info/crimpconnectors/)  
+* [DuPont and “DuPont” connectors](http://www.mattmillman.com/info/crimpconnectors/dupont-and-dupont-connectors/)
+* [Common JST Connector Types](http://www.mattmillman.com/info/crimpconnectors/common-jst-connector-types/)
+* [The Electronic Connector Book](https://connectorbook.com/): A practical guide and catalog of all the connecting components used in the electronic industry.
+* [Identiconn](https://connectorbook.com/identification.html) Identiconn™ Connector Identification Utility.
+
+Bibliothèque de fichiers 3D mécanique:
+* [GrabCAD](https://grabcad.com/library): Free CAD Designs, Files & 3D Models maby by the community
+* [Traceparts](https://www.traceparts.com/en): Free 3D models, CAD files and 2D drawings
+* [VRAC SolidWorks library](https://github.com/VRAC-team/VRAC-SolidWorks-library)
+
+Bibliothèque d'empreintes et de symboles électronique:
+* [SnapEDA](https://www.snapeda.com/) Free PCB Footprints and Schematic Symbols
+* [VRAC KiCad library](https://github.com/VRAC-team/VRAC-KiCad-library)
 
 Forums robotique:
-* [Forum Planete Science / Coupe de France de robotique](https://www.planete-sciences.org/forums/)
 * [Forum Robot Maker](https://www.robot-maker.com/forum/)
 * [Forum Usinages.com (catégorie Robotique et Domotique)](https://www.usinages.com/forums/robotique-et-domotique.125/)
 
@@ -596,14 +636,18 @@ Equipes Eurobot (non listés sur le portail des équipes PM-ROBOTIX):
 * [Roboterclub Aachen](https://www.roboterclub.rwth-aachen.de/)
 
 Electronique:
-* [WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html): conception de filtres, architecture d'arbres d'horloges, ..
+* [WEB - Texas Instruments - Design tools & simulation](https://www.ti.com/design-resources/design-tools-simulation.html): conception de filtres, architecture d'arbres d'horloges, .. 
 * [LS7366R 32-bit quadrature counter with serial interface](https://lsicsi.com/datasheets/LS7366R.pdf)
 * [Texas Instrument LM628/LM629](http://www.ti.com/lit/ds/symlink/lm629.pdf): CI dédié l'asservissement d'un moteur, commande en position/vitesse/accélération
+* [The ultimate SMD marking codes database](https://smd.yooneed.one/) Identifty SMD part by the short marking
 
-Mécanique:
+Courroie/Guidage mécanique:
 * [Générateur en ligne de roue à courroie, roues dentées, crémaillères](https://www.igus.fr/info/3d-print-gears): fichiers de CAO téléchargeables pour les imprimer en 3D ou les commander
 * [Générateur de courroie GT2 imprimable en 3D](https://www.thingiverse.com/thing:3458902) avec Fusion 360
 * [Système de guidage linéaire motorisé](https://gitlab.cba.mit.edu/jakeread/pgd), conçu pour être fabriqué avec de la découpe laser et de l'impression 3D
+
+Impression 3D:
+* [Print Quality Troubleshooting Guide](https://www.simplify3d.com/resources/print-quality-troubleshooting/): Warping, Dimensional Accuracy, Layer Separation and Splitting, ...
 
 Logiciel:
 * [PyRobot - light weight, high-level interface which provides hardware independent APIs for robotic manipulation and navigation by facebook research.](https://pyrobot.org/)
