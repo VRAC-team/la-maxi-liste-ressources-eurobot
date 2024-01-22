@@ -656,4 +656,4 @@ Littérature:
 * [Elements of Robotics, Mordechai Ben-Ari, Francesco Mondada, 2018, Open Access](https://www.springer.com/gp/book/9783319625324)
 * [PDF - Rich LeGrand - Closed-Loop Motion Control for Mobile Robotics](https://www.cs.hmc.edu/~dodds/projects/RobS05/XPort/XPortArticle.pdf): un Game Boy Advance, des roues holonomes, des legos et hop une base mobile
 * [La RACHE, une méthodologie réaliste mais formaliste - par Sukender](https://www.la-rache.com/img/a1_rache.pdf), [Système d'unités pifométriques](https://www.la-rache.com/img/unites.pdf)
-* [PDF - High-Precision Robot Odometry Using an Array of Optical Mice](https://pdfs.semanticscholar.org/37ca/1fc2dcc4c0cf860fc0b00542fc7cb59c579f.pdf)
+* [PDF - High-Precision Robot Odometry Using an Array of Optical Mice](https://pdfs.semanticscholar.org/37ca/1fc2dcc4c0cf860fc0b00542fc7cb59c579f.pdf) [archive](odometrie/mouse_paper_colloquium_22march11.pdf)
