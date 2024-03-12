@@ -49,7 +49,7 @@ Vous pouvez contribuer à cette maxi liste:
    * [4.1 CAO électronique](#41-cao-électronique)
    * [4.2 CAO mécanique](#42-cao-mécanique)
 - [5. Actionneurs, capteurs, connectique](#5-actionneurs-capteurs-connectique)
-   * [5.1 Moteurs et controleurs](#51-moteurs-et-controleurs)
+   * [5.1 Moteurs et contrôleurs](#51-moteurs-et-contr%C3%B4leurs)
    * [5.2 Roues](#52-roues)
    * [5.3 Encodeurs](#53-encodeurs)
    * [5.4 Capteurs de distance](#54-capteurs-de-distance)
@@ -58,7 +58,7 @@ Vous pouvez contribuer à cette maxi liste:
    * [5.7 Connectique et câblage](#57-connectique-et-câblage)
 - [6. Sites internet marchands et services](#6-sites-internet-marchands-et-services)
    * [6.1 Mécanique](#61-mécanique)
-   * [6.2 Electronique](#62-electronique)
+   * [6.2 Électronique](#62-electronique)
    * [6.3 Mix électronique/mécanique](#63-mix-électroniquemécanique)
    * [6.4 Circuit imprimé](#64-circuit-imprimé)
    * [6.5 Modélisme](#65-modélisme)
@@ -66,7 +66,7 @@ Vous pouvez contribuer à cette maxi liste:
    * [6.7 Visserie](#67-visserie)
 - [7. Liens](#7-liens)
    * [7.1 Code source des équipes](#71-code-source-des-équipes)
-   * [7.2 Chaines youtube des équipes](#72-chaines-youtube-des-équipes)
+   * [7.2 Chaines YouTube des équipes](#72-chaines-youtube-des-équipes)
    * [7.3 Divers](#73-divers)
 
 
@@ -80,7 +80,7 @@ Beaucoup d'équipes sont là pour papoter robotique, vous donner des conseils, p
 
 ## 1.1 Prérequis
 
-Si c'est votre première participation à la coupe et que vous arrivez ici, ne vous inquietez pas au vu de la longueur de ce document, il n'y a pas besoin de connaître par coeur la moindre référence listé ici ^^
+Si c'est votre première participation à la coupe et que vous arrivez ici, ne vous inquiétez pas au vu de la longueur de ce document, il n'y a pas besoin de connaître par cœur la moindre référence listé ici ^^
 
 On part du principe que vous avez au moins les bases en électronique et/ou en programmation.
 Il n'y a pas de cours pour débutant ici, ce sont des ressources faciles à trouver sur le net.
@@ -88,24 +88,24 @@ Il n'y a pas de cours pour débutant ici, ce sont des ressources faciles à trou
 ## 1.2 Conseils pour une première participation à la coupe
 
 Les 3 conseils les plus importants du VRAC:
-- **avoir une base roulante fiable** qui permet un positionnement correct du robot (à environ 1cm près). Une base différentielle avec 2 moteurs pas a pas est le moyen le plus simple d'avoir [une bonne base roulante](https://www.youtube.com/watch?v=xO8gWP-WfIA), il n'y a même pas besoin d'odométrie ni d'aservissement!
+- **avoir une base roulante fiable** qui permet un positionnement correct du robot (à environ 1cm près). Une base différentielle avec 2 moteurs pas a pas est le moyen le plus simple d'avoir [une bonne base roulante](https://www.youtube.com/watch?v=xO8gWP-WfIA), il n'y a même pas besoin d'odométrie ni d'asservissement!
 - étudier le règlement pour faire juste 2-3 actions facile avec un actionneur simple mais qui rapportent des points à coup sur. Cela permet **d'éliminer les actions trop complexes** qui sont plus destinée aux équipes confirmés qui ont de l'expérience.
-- **terminer le robot au MINIMUM 1 mois avant la compétition!**. Cette dernière phase qu'on peut penser courte va en fait réveler pleins d'imprévus/soucis qu'il faut corriger, dans l'idéal c'est plus 2-3 mois qu'il faut pour bien finaliser le projet.
+- **terminer le robot au MINIMUM 1 mois avant la compétition!**. Cette dernière phase qu'on peut penser courte va en fait révéler pleins d'imprévus/soucis qu'il faut corriger, dans l'idéal c'est plus 2-3 mois qu'il faut pour bien finaliser le projet.
 
 [Les dix commandements version OMyBot](https://twitter.com/TeamOmybot/status/1128554678101467136) est une version plus concrète avec des conseils spécifiques pour la coupe.
 
 N'hésitez pas à chercher/regarder ce qu'on fait les les autres équipes les années précédents, c'est motivant et ça peut donner de nouvelles idées d'actionneurs/stratégies:
-* Les matchs de la Coupe de France: [Chaine Youtube Planete Science](https://www.youtube.com/@PlaneteSciencesNational/streams): 
-* Les matchs de la Coupe de Belgique Robotix's: [Chaine Youtube SPARKOH!](https://www.youtube.com/@sparkoh93/streams)
+* Les matchs de la Coupe de France: [Chaîne YouTube Planète Science](https://www.youtube.com/@PlaneteSciencesNational/streams): 
+* Les matchs de la Coupe de Belgique Robotix's: [Chaîne YouTube SPARKOH!](https://www.youtube.com/@sparkoh93/streams)
 * [Portail des sites web des équipes par PM-ROBOTIX](https://www.pm-robotix.eu/sites-de-la-coupe-et-des-equipes/)
 
 ## 1.3 Glossaire
 
 **Asservissement**: Système dont le but est d'atteindre le plus rapidement possible sa valeur de consigne et de la maintenir, quelles que soient les perturbations externes.
 
-**Billes porteuses / Billes folles**: Permettent de faire un point de contact avec le sol. Principalement utilisés aux 4 extrémitées des robots à roues différentielles.
+**Billes porteuses / Billes folles**: Permettent de faire un point de contact avec le sol. Principalement utilisés aux 4 extrémités des robots à roues différentielles.
 
-**LiDAR**: Télémètre laser à balayage, il permet de récupérer des un nombre de points sur un plan. Il est utilisé pour la détection des mats de balise et donc pour récupérer la position des concurrents. Il peut également être utlisé au niveau du sol pour récupérer la position des éléments de jeu ou mieux détecter le gabarit des robots concurrents.
+**LiDAR**: Télémètre laser à balayage, il permet de récupérer des un nombre de points sur un plan. Il est utilisé pour la détection des mats de balise et donc pour récupérer la position des concurrents. Il peut également être utilisé au niveau du sol pour récupérer la position des éléments de jeu ou mieux détecter le gabarit des robots concurrents.
 
 **Odométrie**: Technique d'utilisation des données de capteurs permettant d'estimer la position du robot. Utilise généralement les 2 roues codeuses pour estimer la position mais peut également être faite avec un lidar.
 
@@ -130,7 +130,7 @@ N'hésitez pas à chercher/regarder ce qu'on fait les les autres équipes les an
 > 3. [L'asservissement 1/2](https://www.youtube.com/watch?v=uEfZ-wJkynY)
 > 4. [L'asservissement 2/2](https://www.youtube.com/watch?v=40OEUTVVAqI)
 
-[Code source sut GitHub](https://github.com/RobotEnCarton/tutoRobot)
+[Code source sur GitHub](https://github.com/RobotEnCarton/tutoRobot)
 
 **RCVA: Réflexions sur un robot Eurobot en 9 chapitres**
 
@@ -160,7 +160,7 @@ N'hésitez pas à chercher/regarder ce qu'on fait les les autres équipes les an
 >
 > [EXCEL - Simulation asservissement polaire](asservissement/Cubot-asservissement.xlsx)
 >
-> [EXCEL - Génération de profile trapézoidal de vitesse](asservissement/Cubot-profil_de_vitesse.xlsx)
+> [EXCEL - Génération de profile trapézoïdal de vitesse](asservissement/Cubot-profil_de_vitesse.xlsx)
 
 ## 2.2 Odométrie
 
@@ -181,7 +181,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 
 ## 2.4 Moteurs
 
-* [**WEB - RobotShop - Outil de Dimensionnement d'un moteur d'entrainement**](https://www.robotshop.com/community/blog/show/dimensionnement-dun-moteur-dentranement)
+* [**WEB - RobotShop - Outil de Dimensionnement d'un moteur d'entraînement**](https://www.robotshop.com/community/blog/show/dimensionnement-dun-moteur-dentranement)
 * [PDF - ANCR - Dimensionner ses moteurs](moteurs/ANCR-Dimensionner_ses_moteurs.pdf)
 * [PDF - TechTheTroll - Dimensionnement des moteurs de propulsion](https://techthetroll.files.wordpress.com/2016/06/techthetroll-dimensionnement-des-moteurs-de-propulsion.pdf)
 
@@ -207,7 +207,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 ## 2.7 Balises
 
 * [PDF - totofweb - Balise infrarouge](balise/totofweb-balises_IR.pdf)
-* [WEB - Barbatronic - Reflective lidar for robotic and the eurobot competition](http://fabacademy.org/2019/labs/lamachinerie/students/adrien-bracq/projects/final-project/)
+* [WEB - Barbatronic - Reflective lidar for robotic and the Eurobot competition](http://fabacademy.org/2019/labs/lamachinerie/students/adrien-bracq/projects/final-project/)
 * [PDF - CVRA - Development of an ultra-wide band indoor positioning system](https://github.com/cvra/robot-software/blob/1d208d0d5882d5526eef758eae61f5626291a016/uwb-beacon-firmware/doc/report.pdf)
 * [PDF - CVRA - Balises laser Eurobot 2008](https://cvra.ch/ressources/misc/balise_laser.pdf)
 * [PDF - Microb Technology - Faire des balises laser en buvant des bières](balise/MicrobTechnology-Faire_des_balises_laser_en_buvant_des_bieres.pdf)
@@ -237,7 +237,7 @@ codeuses](odometrie/RCVA-Conseils_theoriques_pour_Eurobot.pdf)
 ## 2.13 Architecture des robots
 
 * [WEB - Robotech Legends 2019](https://twitter.com/robotech34/status/1129147494859005952)
-* [Librarie diagrams.net par @kmikaz51](https://drive.google.com/file/d/1W76g7xKKJeluGIWmfG8v30gIhi9cbWxQ/view?usp=sharing) pour déssiner votre propre architecture.
+* [Librairie diagrams.net par @kmikaz51](https://drive.google.com/file/d/1W76g7xKKJeluGIWmfG8v30gIhi9cbWxQ/view?usp=sharing) pour dessiner votre propre architecture.
 
 ## 2.14 Table et les elements de jeu
 
@@ -316,7 +316,7 @@ IDE:
 
 * [Microchip](https://www.microchip.com/)
 * [Cartes de développement](https://www.microchip.com/en-us/tools-resources/evaluation-boards)
-* [Microcontroleurs](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors)
+* [Microcontrôleurs](https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors)
 
 librairies:
 * [Code Examples](https://www.microchip.com/doclisting/CodeExamplesByFunc.aspx)
@@ -390,7 +390,7 @@ Outils:
 ------------------------------------------------------------------------------------------
 # 5. Actionneurs, capteurs, connectique
 
-## 5.1 Moteurs et controleurs
+## 5.1 Moteurs et contrôleurs
 
 ### 5.1.1 Moteurs à courant continu
 
@@ -399,7 +399,7 @@ Outils:
 
 ### 5.1.2 Moteurs brushless
 
-Controleurs de moteurs brushless:
+Contrôleurs de moteurs brushless:
 * [SimpleFOC](https://simplefoc.com/): Arduino Compatible Open Source Field Oriented Control (FOC)
 * [oDrive](https://odriverobotics.com/)
 * [MJBOTS moteus](https://mjbots.com/products/moteus-r4-8)
@@ -587,11 +587,12 @@ Découpe laser, impréssion 3D, fraisage, tournage, ...
 * [EsialRobotik](https://github.com/EsialRobotik)
 * [GRUM](https://gitlab.com/grumoncton)
 * [Les Karibous](https://github.com/LesKaribous)
+* [Mecapitronic](https://github.com/Mecapitronic)
 * [Microb Technology](https://github.com/onitake/aversive)
 * [Poivron Robotique](https://git.poivron-robotique.fr/Keuronde)
 * [UTCoupe](https://github.com/utcoupe)
 
-## 7.2 Chaines youtube des équipes
+## 7.2 Chaines YouTube des équipes
 
 * [APB Team](https://www.youtube.com/@APBTeam/videos)
 * [Arig](https://www.youtube.com/@arigassociation3814/videos)
